@@ -1,3 +1,33 @@
-<h1>Este es un sitio web con Github Pages</h1>
-<p>Y fue creado con amor para el Curso de Git y Github de Platzi</p>
-<p><img src="https://i.imgur.com/PfA0M2o.gif" /></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./canvas.css">
+    <title>Dibujando con el mouse</title>
+</head>
+<body>
+    <header>
+        <ul>
+        <li class="menu-item1">Color
+            <input type="color" id="select_color" />
+        </li>
+        <li class="menu-item2"> Line width
+            <input type="text" id="select_">
+        </li>
+        <li class="menu-item3">
+            <input type="text">
+        </li>
+        <li class="menu-item4">
+            <input type="text">
+        </li>
+    </ul>
+    </header>
+    <section class="conteiner">
+        <canvas class="content" height="500" width="1500" id="area_de_dibujo"></canvas>
+    </section>
+    <footer> <strong> Mueve tu mouse para dibujar.</strong></footer>
+    <script src="./mousedraw2.js"></script>
+</body>
+</html>
