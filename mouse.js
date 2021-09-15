@@ -41,7 +41,7 @@ function dibujarMouse(evento) {
   }
 }
 
-// Dibujar Lineas
+// Dibujo de Lineas
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal, lienzo) {
   lienzo.beginPath();
   lienzo.strokeStyle = color;
@@ -58,7 +58,13 @@ colorPicker.addEventListener("change", watchColorPicker, false);
 function watchColorPicker(event) {
   document.querySelectorAll("p").forEach(function(p) {
     p.style.color = event.target.value;
-  };
+  });
 }
 
+var s = getComputedStyle(canvas); 
+var w = s.width; 
+var h = s.height;
+
+canvas.width = w.split('px')[0];
+canvas.height = h.split('px')[0];
 
