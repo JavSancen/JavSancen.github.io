@@ -35,3 +35,9 @@ body{
 .menu-item2:hover {
     flex: 8;
 }
+.pizarron {
+    margin: 0 auto;
+    display: block;
+    border; 10px solid #d9d9d9;
+}
+
