@@ -32,48 +32,8 @@ body{
     text-align: center;
     transition: flex .5s;
 }
-.menu-item3 {
-    list-style: none;
-    flex: 1;
-    background:  peru;
-    line-height: 3rem;
-    text-align: center;
-    transition: flex .5s;
-}
-.menu-item4 {
-    list-style: none;
-    flex: 1;
-    background:  royalblue;
-    line-height: 3rem;
-    text-align: center;
-    transition: flex .5s;
-}
-.menu-item1:hover {
-    flex: 8;
-}
-.menu-item2:hover {
-    flex: 8;
-}
-.menu-item3:hover {
-    flex: 8;
-}
-.menu-item4:hover {
-    flex: 8;
-}
-.conteiner {
-    display: flex;
-    height: inherit;
-}
-.content {
-    outline: 1px solid cyan;
-    flex: 1;
-}
-.aside {
-    outline: 1px solid magenta;
-    flex: 0 0 25%;
-}
-.footer {
-    outline: 1px solid salmon;
-    height: 6rem;
-    margin-top:auto;
+.pizarron {
+    margin:0 auto;
+    display:block;
+    border:10px solid #d9d9d9
 }
