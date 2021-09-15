@@ -61,9 +61,4 @@ function watchColorPicker(event) {
   });
 }
 
-var s = getComputedStyle(canvas);
-var w = s.width;
-var h = s.heigth;
 
-canvas.width = w.split('px')[0];
-canvas.height = h.split('px')[0];
