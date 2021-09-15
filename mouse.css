@@ -35,10 +35,14 @@ body{
 .menu-item2:hover {
     flex: 8;
 }
-#area_de_dibujo {
+.pizarron {
+    align-items: center;
     width: 50%;
     margin: 0 auto;
     display: block;
-    border: 10px solid #d9d9d9;
+    border: 20px solid #575252;
+}
+.foot {
+    text-align: center;
 }
 
