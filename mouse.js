@@ -1,4 +1,4 @@
-//// Canvas
+// Canvas
 var cuadrito = document.getElementById("area_de_dibujo");
 var color = document.getElementById("select_color");
 // EventListeners
@@ -41,7 +41,7 @@ function dibujarMouse(evento) {
   }
 }
 
-// Dibujo de Lineas
+// Dibujar Lineas
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal, lienzo) {
   lienzo.beginPath();
   lienzo.strokeStyle = color;
@@ -60,3 +60,10 @@ function watchColorPicker(event) {
     p.style.color = event.target.value;
   });
 }
+
+var s = getComputedStyle(canvas);
+var w = s.width;
+var h = s.heigth;
+
+canvas.width = w.split('px')[0];
+canvas.height = h.split('px')[0];
