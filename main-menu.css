@@ -7,7 +7,7 @@
 .header {
     background-color: #90ffa1;
     display: grid;
-    grid-template-columns: 25% 65% 10%;
+    grid-template-columns: 25% 55% 20%;
 }
 
 .logo {
@@ -15,12 +15,12 @@
     justify-content: flex-start;
     align-items: center;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 0px;
 }
 .brand {
     display: flex;
     align-items: center;
-   padding-left: 20px;
+   padding-left: 0px;
     padding-right: 20px;
 }
 
