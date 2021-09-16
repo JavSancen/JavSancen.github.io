@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #90ffa1;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 40px ;
+    margin-top: 20px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    margin-left:300px ;
+}
+
+.login {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login li {
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer {
+    background-color: rgb(229, 231, 233);
+}
