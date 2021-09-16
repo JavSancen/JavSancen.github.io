@@ -16,7 +16,7 @@
     align-items: center;
     padding-left: 10px;
     padding-right: 0px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .brand {
     display: flex;
@@ -24,7 +24,7 @@
     padding-left: 0px;
     padding-right: 0px;
     margin-right:60px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .login {
