@@ -16,13 +16,15 @@
     align-items: center;
     padding-left: 10px;
     padding-right: 0px;
+    margin-top: 40px;
 }
 .brand {
     display: flex;
     align-items: center;
     padding-left: 0px;
     padding-right: 0px;
-    margin-right:40px;
+    margin-right:60px;
+    margin-top: 40px;
 }
 
 .login {
