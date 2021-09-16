@@ -14,14 +14,14 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 40px ;
-    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .brand {
     display: flex;
     align-items: center;
-    margin-top: 48px;
-    margin-left:0px ;
+   padding-left: 40px;
+    padding-right: 40px;
 }
 
 .login {
