@@ -47,6 +47,7 @@
 .inf_main{
     background-color: orange;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .about_text {
@@ -58,7 +59,6 @@
 
 .about {
     background-color: honeydew;
-    padding-left: 10px;
 }
 
 .footer {
