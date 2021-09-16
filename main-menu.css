@@ -7,7 +7,7 @@
 .header {
     background-color: #90ffa1;
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-columns: 25% 65% 10%;
 }
 
 .logo {
@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     margin-top: 48px;
-    margin-left:300px ;
+    margin-left:0px ;
 }
 
 .login {
