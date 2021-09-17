@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
 .header {
     height: 52px;
     background-color: #90ffa1;
@@ -16,6 +24,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
     padding-left: 20px;
 }
 .brand {
@@ -28,6 +37,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .login {
@@ -37,6 +47,7 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 15px;
+    flex-wrap: wrap;
 }
 
 .main {
@@ -45,11 +56,63 @@
 }
 
 .inf_main{
-    background-color: orange;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: rgb(17, 12, 2);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
     font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
+
+.inf {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 20%; 
+         
+    }
+
+.inf1 {
+    background-color: azure;
+}
+
+.inf2{
+    background-color: azure;
+}
+
+.inf3 {
+    background-color:azure ;
+}
+.inf4 {
+    background-color: azure;
+}
+.inf5 {
+    background-color: azure;
+}
+.inf6 {
+    background-color: azure;
+}
+.inf7 {
+    background-color: azure;
+}
+
+.link {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3.5rem;
+}
+
+.link5 {
+    padding-left: 1.5rem;
+}
+
+.link6 {
+    padding-left: 2rem;
+}
+
 
 .about_text {
     list-style: none;
@@ -87,7 +150,6 @@
     font-size: 12px;
     padding-left: 16%;
 }
-
 
 
 
