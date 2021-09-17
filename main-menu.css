@@ -57,18 +57,18 @@ body {
 
 .inf_main{
     background-color: rgb(17, 12, 2);
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
+    padding: .5rem;
     font-size: 14px;
     display: flex;
     flex-wrap: wrap;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .inf {
-        width: 10rem;
-        height: 10rem;
+        width: 8rem;
+        height: 8rem;
         border-radius: 20%; 
          
     }
@@ -150,6 +150,3 @@ body {
     font-size: 12px;
     padding-left: 16%;
 }
-
-
-
