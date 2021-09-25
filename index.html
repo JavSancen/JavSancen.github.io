@@ -11,61 +11,68 @@
 <body>
     <header class="header">
         
-        <ul class="logo">
-        <li>
-        <a href="video">
-        <img src="./logo1.svg" alt="" ></a>
-        </li>
+        <ul class="logo"></ul>
+        <audio id="music" autoplay MUTED  src="./assets/audio/hiphopMusic.mp3"  >
+               
+        </audio>
+        <img  type="image" src="./assets/img/logo1.svg" alt="" width="48" height="48" onclick="mute()">
         </ul>
-
         <ul class="login">
 
-            <li ><a href="./main-menu.html"><img src="./home1.svg" alt=""></a></li>
+            <li ><a href="./main-menu.html"><img src="./assets/img/home1.svg" alt=""></a></li>
 
         </ul>
 
         <ul class="brand">
         <li>
-        <a href="https://t.me/paquitoSancen"><img src="./brand1.svg" alt="" ></a>
+        <a href="https://t.me/paquitoSancen"><img src="./assets/img/brand1.svg" alt="" ></a>
         </li>
         </ul>
         
         
     </header>
     <main class="main">
-
-        <section class="inf_main">
+        <div class="inf__container">
+        <div class="inf_main">
             
-            <p class="inf1 inf">
-                <a href="" class="link1 link">Tutoriales</a>
-            </p>
-            <br>
-            <p class="inf2 inf">
-                <a href="./mouse.html" class="link2 link">Pizarron</a>
-            </p>
-            <br>
-            <p class="inf3 inf">
-                <a href="" class="link3 link">Villita</a>
-            </p>
-            <br>
-            <p class="inf4 inf">
-                <a href="" class="link4 link">Snake</a>
-            </p>
-            <br>
-            <p class="inf5 inf">
-                <a href="" class="link5 link">Cajero automatico</a>
-            </p>
-            <br>
-            <p class="inf6 inf">
-                <a href="" class="link6 link">Cliente / servidor</a>
-            </p>
-            <br>
-            <p class="inf7 inf">
-                <a href="" class="link7 link">safeT</a>
-            </p>
+            <a href="./mouse.html" class="link2 link">
+                <div class="inf2 inf">
+                    <img src="https://images.unsplash.com/photo-1618519764620-7403abdbdfe9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="">
+                    <div class="inf1-details inf-details">
+                        <p class="inf-text__details--tittle">Git branch Marvel</p>
+                        <p class="inf-text__details--subtittle">Learn Gitversion control with references from the Marvel universe </p>
+                    </div>
+                </div>
+                </a>
+
             <br>
 
-        </section>
+            <a href="./mouse.html" class="link2 link">
+            <div class="inf2 inf">
+                <img src="https://images.unsplash.com/photo-1618866569247-1a08f389e733?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="">
+                <div class="inf1-details inf-details">
+                    <p class="inf-text__details--tittle">Git branch Marvel</p>
+                    <p class="inf-text__details--subtittle">Learn Gitversion control with references from the Marvel universe </p>
+                </div>
+            </div>
+            </a>
+           
+            <br>
+
+            <a href="./safeT.html" class="link2 link">
+            <div class="inf2 inf">
+                <img src="https://images.unsplash.com/photo-1591994843349-f415893b3a6b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="">
+                <div class="inf1-details inf-details">
+                    <p class="inf-text__details--tittle">Git branch Marvel</p>
+                    <p class="inf-text__details--subtittle">Learn Gitversion control with references from the Marvel universe </p>
+                </div>
+            </div>
+            </a>
+
+            <br>
+            
+        </div>
+        </div>
         <ul class="about">
             <li class="about_text">
                 <p><h4>JOB SUMMARY <BR></BR></h4>
@@ -81,11 +88,12 @@
                 </p><br><BR><BR></BR>
             </li>
         </ul>
+        
     </main>
     <footer class="footer">
 
         <ul class="foot_page">
-        <img src="./logo2.svg" alt="">
+        <img src="./assets/img/logo2.svg" alt="">
             <li><a href="">Terms and conditions</a> </li>
             <li><a href="">Lenguages</a> </li>
             <li><a href="">Blog</a> </li>
@@ -93,11 +101,12 @@
     
         <ul class="social_media">
             <li class="twiter">
-                <a href="https://twitter.com/paquitoSancen"><img src="./twit1.svg" alt=""></a></li>
+                <a href="https://twitter.com/paquitoSancen"><img src="./assets/icon/twit1.svg" alt=""></a></li>
     
              <li class="linkedin">
-                 <a href="https://www.linkedin.com/in/francisco-javier-z%C3%BA%C3%B1iga-sanc%C3%A9n-b15481202/"><img src="./in1.svg" alt=""></a></li>
+                 <a href="https://www.linkedin.com/in/francisco-javier-z%C3%BA%C3%B1iga-sanc%C3%A9n-b15481202/"><img src="./assets/icon/in1.svg" alt=""></a></li>
         </ul
-    </footer>
+             </footer>
+    <script src="./audio.js"></script>
 </body>
 </html>
