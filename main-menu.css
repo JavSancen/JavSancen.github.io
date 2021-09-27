@@ -14,7 +14,7 @@ body {
 
 .header {
     position: fixed;
-    overflow: auto;
+    
     display: flex;
     justify-self: flex-start;
     display: grid;
