@@ -13,8 +13,7 @@ body {
 }
 
 .header {
-    position: fixed;
-    
+    position: fixed;  
     display: flex;
     justify-self: flex-start;
     display: grid;
@@ -60,6 +59,10 @@ body {
     justify-content: center;
     width: 100px;
     height: 100px;
+}
+
+.inf4 {
+    width: 30%;
 }
 
 .img_inf {
@@ -161,6 +164,7 @@ transition: 450ms -webkit-transform;
 
 .about {
     background-color: honeydew;
+    margin-top: 7%;
 }
 
 .footer {
