@@ -26,51 +26,72 @@ body {
 }
 
 .logo {
-    margin-left: 33%;
+    margin-left: 10%;
+    margin-right: auto;
 }
 .brand {
-    margin-left: 33%;
+    margin-right: auto;
     margin-top: 7px;
 }
 
 .login {
-    margin-left: 33%;
+    margin-right: auto;
 }
 
-.main {
-    display: flex;
-    align-content: center;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    
-}
-
-.inf__container {
-    
-    height: auto;
-    width: auto;
+.container {
     background: black;
-}
-
-.inf {
-    display: inline-block;
     display: flex;
-    margin-left: 30%;
-    margin-top: 30%;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
+    justify-content: space-evenly;
+    min-width: 150px;
+    height: 300px;
+    overflow: scroll;
+}
+.c1, .c2, .c3, .c4, .c4, .c5 {
+    width: 10px;
+    height: 50px;
+    margin-top: 50px;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
-.inf4 {
-    width: 30%;
+ .img_inf1 {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 30px;
+    position: relative;
+    border-radius: 50%;
 }
 
-.img_inf {
-    border-radius: 20%;
+.img_inf2 {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    margin-right: 20px;
+    position: relative;
+    margin-left: 150px;
+    border-radius: 50%;
+}
+
+.img_inf3 {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    margin-right: 20px;
+    position: relative;
+    margin-left: 300px;
+    border-radius: 50%;
 }
 
 
+.img_inf4 {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    margin-right: 50px;
+    position: relative;
+    margin-left: 450px;
+    border-radius: 50%;
+}
 /*.inf_main{
 transition: 450ms -webkit-transform;
   transition: 450ms transform;
@@ -165,7 +186,7 @@ transition: 450ms -webkit-transform;
 
 .about {
     background-color: honeydew;
-    margin-top: 7%;
+    
 }
 
 .footer {
