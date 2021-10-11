@@ -229,7 +229,7 @@
     
    
     
-    .main-product-detail {
+    .main-foda-detail {
         position: relative;
         width: 100%;
         min-width: 320px;
@@ -238,7 +238,7 @@
         background-color:#F4EEC7;
     }
     
-    .product-detail--batata-logo {
+    .foda-detail--batata-logo {
         position: absolute;
         width: 50px;
         height: 50px;
@@ -248,7 +248,7 @@
         background-repeat: no-repeat;
     }
     
-    .product-detail--title {
+    .foda-detail--title {
         width: 90%;
         min-width: 288px;
         height: auto;
@@ -257,7 +257,7 @@
         text-align: center;
     }
     
-    .product-detail--title h2{
+    .foda-detail--title h2{
         margin-bottom: 20px;
         font-size: 2.4rem;
         font-weight: bold;
@@ -265,7 +265,7 @@
         color: #3A3535;
     }
     
-    .product-detail--title p {
+    .foda-detail--title p {
         margin-bottom: 20px;
         font-size: 1.4rem;
         font-weight: 500;
@@ -273,7 +273,7 @@
         color: #808080;
     }
     
-    .product-detail-card {
+    .foda-detail-card {
         width: 90%;
         min-width: 288px;
         max-width: 400px;
@@ -285,7 +285,7 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
     }
     
-    .product-detail-card .clock {
+    .foda-detail-card .clock {
         display: inline-block;
         width: 20px;
         height: 20px;
@@ -296,7 +296,7 @@
         background-repeat: no-repeat;
     }
     
-    .product--card-title  {
+    .foda--card-title  {
         margin-bottom: 15px;
         font-size: 1.8rem;
         font-weight: bold;
@@ -304,14 +304,14 @@
         color: var(--white);
     }
     
-    .product--card-body {
+    .foda--card-body {
        font-size: 1.4rem;
        font-weight: 500;
        line-height: 1.8rem;
        color: #2a2a2a
     }
     
-    .product-detail-card .eye {
+    .foda-detail-card .eye {
         display: inline-block;
         width: 20px;
         height: 20px;
@@ -322,7 +322,7 @@
         background-repeat: no-repeat;
     }
     
-    .product-detail-card .dollar-sign {
+    .foda-detail-card .dollar-sign {
         display: inline-block;
         width: 20px;
         height: 20px;
@@ -333,7 +333,7 @@
         background-repeat: no-repeat;
     }
     
-    .product-detail-card .check-circle {
+    .foda-detail-card .check-circle {
         display: inline-block;
         width: 20px;
         height: 20px;
@@ -345,7 +345,7 @@
     }
     
     
-    .bitcoin-img-container {
+    .desings-img-container {
         width: 100%;
         min-width: 320px;
         height: 50vh;
