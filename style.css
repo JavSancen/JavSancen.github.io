@@ -285,11 +285,12 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
     }
     
-    .foda-detail-card .clock {
+    .foda-detail-card .weak {
         display: inline-block;
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         margin-bottom: 10px;
+        margin-left: 215px;
         background-image: url(./asset/icons/weakness1.svg);
         background-size: cover;
         background-position: center;
@@ -297,11 +298,11 @@
     }
     
     .foda--card-title  {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         font-size: 1.8rem;
         font-weight: bold;
         line-height: 1.8rem;
-        color: var(--white);
+        color: #585454;
     }
     
     .foda--card-body {
@@ -311,33 +312,36 @@
        color: #2a2a2a
     }
     
-    .foda-detail-card .eye {
+    .foda-detail-card .threat {
         display: inline-block;
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         margin-bottom: 10px;
+        margin-left: 215px;
         background-image: url(./asset/icons/threats.svg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     
-    .foda-detail-card .dollar-sign {
+    .foda-detail-card .strength {
         display: inline-block;
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         margin-bottom: 10px;
+        margin-left: 215px;
         background-image: url(./asset/icons/strengths1.svg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     
-    .foda-detail-card .check-circle {
+    .foda-detail-card .opportunities {
         display: inline-block;
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         margin-bottom: 10px;
+        margin-left: 215px;
         background-image: url(./asset/icons/opportunities.svg);
         background-size: cover;
         background-position: center;
@@ -408,13 +412,13 @@
     .desings-container--card {
         position: relative;
         scroll-snap-align: center;
-        width: 70%;
+        width: 80%;
         min-width: 190px;
         max-width: 300px;
         height: 250px;
         margin: 50px 5px 0;
         padding: 0 15px;
-        background-image: url('./asset/img/batata-pic2.jpg');
+        background-color: #201E1C;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -431,7 +435,7 @@
         height: 250px;
         margin: 50px 5px 0;
         padding: 0 15px;
-        background-image: url('./asset/img/violeta-home2.jpg');
+        background-color: #78288C;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -448,7 +452,7 @@
         height: 250px;
         margin: 50px 5px 0;
         padding: 0 15px;
-        background-image: url('');
+        background-color: whitesmoke;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -477,27 +481,42 @@
         line-height: 1.8rem;
         color: white;
     }
-    
-    .desing-card--price {
-        text-decoration: none;
-        padding: 5px 0;
-        font-size: 5.2rem;
-        font-weight: bold;
-        line-height: 5.3rem;
-        color: black;
+  
+    .desing-card--logo {
+        display: inline-block;
+        width: 80%;
+        height: 20px;
+        margin-bottom: -50px;
+        background-image: url(./Batatabit/assets/imgs/logo.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
-    
-    .desing-card--price span {
-        vertical-align: 2.9rem;
-        padding-top: 12px;
-        font-weight: 300;
-        font-size: 1.2rem;
-        line-height: 1.5rem;
-        color: #363636;
+
+    .desing-card--logo2 {
+        display: inline-block;
+        width: 80%;
+        height: 90px;
+        margin-bottom: -90px;
+        background-image: url(./asset/img/violeta-home.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .desing-card--logo3 {
+        display: inline-block;
+        width: 80%;
+        height: 90px;
+        margin-bottom: -90px;
+        background-image: url(./asset/img/crece-seguro.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     
     .desing-card-saving {
-        padding-top: 90px;
+        padding-top: 80px;
         font-size: 1.2rem;
         color: #757575;
     }
@@ -507,7 +526,7 @@
         height: 48px;
         margin-top: 15px;
         background-color: #faf8f7;
-        border: 2px solid var(--green-brand);
+        border: 2px solid #80ED99;
         border-radius: 20px;
         font-family: 'DM Sans', sans-serif;
         font-size: 1.4rem;
