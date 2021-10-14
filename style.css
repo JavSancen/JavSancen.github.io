@@ -413,7 +413,7 @@
         height: 250px;
         margin: 50px 5px 0;
         padding: 0 15px;
-        background-color: #201E1C;
+        background-color: #f8d2ac;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -430,7 +430,7 @@
         height: 250px;
         margin: 50px 5px 0;
         padding: 0 15px;
-        background-color: #78288C;
+        background-color: #a378ad;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -513,7 +513,7 @@
     .desing-card-saving {
         padding-top: 80px;
         font-size: 1.2rem;
-        color: #757575;
+        color: #000000;
     }
     
     .desing-card--ca {
