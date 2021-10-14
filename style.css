@@ -557,10 +557,14 @@
         display: flex;
     }
     
+    footer {
+        justify-content: center;
+    }
+
     footer .right ul {
         display: flex;
+        padding: 15px 10px;
         margin-left: 120px;
-        margin-top: 15px;
         font-size: 1.4rem;
         font-weight: 500;
         line-height: 1.8rem;
@@ -570,11 +574,6 @@
     .github-logo {
         margin-top: 4px;
     }
-
-    .right li {
-        
-    }
-    
     
     .right a {
         text-decoration: none;
@@ -602,9 +601,7 @@
         height: 50px;
     }
 
-    .left h4 {
-        
-    }
+   
     
     
     

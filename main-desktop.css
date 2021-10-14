@@ -1,3 +1,31 @@
-.inf__container .about {
-    
+.foda-detail--title {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+}
+
+.main-tables--container {
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.foda-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.desings-container--slider {
+    justify-content: center;
+}
+
+.desing-card--logo{
+    height: 34px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
