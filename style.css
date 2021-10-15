@@ -100,7 +100,7 @@
         width: 13px;
         height: 8px;
         margin-left: 10px;
-        background-image: url();
+        background-image: url('./assets/icons/arrow-down.svg');
     }
     main {
         width: 100%;
@@ -249,6 +249,8 @@
     }
     
     .foda-detail--title {
+        display: flex;
+        justify-content: center;
         width: 90%;
         min-width: 288px;
         height: auto;
@@ -529,6 +531,11 @@
         line-height: 1.8rem;
         text-decoration: none;
         color: var(--black);
+    }
+
+    .desing-card--ca:hover {
+        box-shadow: 0 1px 6px 0 #20212447;
+        border-color: #dfe1e500;
     }
     
     .desing-card--ca span{

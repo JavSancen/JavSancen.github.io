@@ -4,6 +4,14 @@
     width: 50px;
 }
 
+.information-table--container {
+    width: 90%;
+    min-width: 500px;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+
 .main-tables--container {
     display: flex;
     width: 930px;
