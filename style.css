@@ -311,6 +311,10 @@
        line-height: 1.8rem;
        color: #2a2a2a
     }
+
+    .foda-detail-card ul li {
+        list-style: none;
+    }
     
     .foda-detail-card .threat {
         display: inline-block;
@@ -350,7 +354,7 @@
         width: 100%;
         min-width: 320px;
         height: 50vh;
-        background-image: url("https://pbs.twimg.com/profile_banners/1163569418691104769/1633654065/1500x500");
+        background-image: url("https://images.pexels.com/photos/695207/pexels-photo-695207.jpeg?cs=srgb&dl=pexels-tomas-anunziata-695207.jpg&fm=jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
