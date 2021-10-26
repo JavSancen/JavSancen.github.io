@@ -349,7 +349,13 @@
         background-repeat: no-repeat;
     }
     
-    
+    .certificates-button {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        padding: 20px;
+    }
+
     .desings-img-container {
         width: 100%;
         min-width: 320px;
