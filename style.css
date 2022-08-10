@@ -8,28 +8,28 @@
 
 :root {
     /*1. color*/
-     --green-brand: #7952B3;
-     --soft-orange: #FFE9D5;
-     --secondary-blue: #1A9AF7;
-     --soft-blue: #E7F5FF;
-     --warm-black: #201E1C;
-     --black: #282623;
-     --grey-text: #343A40;
-     --off-white: #FAF8F7;
-     --white: #FFFFFF;
+    --green-brand: #7952B3;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --grey-text: #343A40;
+    --off-white: #FAF8F7;
+    --white: #FFFFFF;
     }
-    
+
     * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
     }
-    
+
     html {
         font-size: 62.5%;
         font-family: 'DM Sans', sans-serif;
     }
-    
+
     header {
         position: relative;
         display: flex;
@@ -39,9 +39,9 @@
         min-width: 320;
         height: auto;
         text-align: center;
-        background: linear-gradient(207.8deg, #201E1C 16.69%, #80ED99 100%);
+        background: linear-gradient(207.8deg, #201E1C 16.69%, #8AF00C 100%);
     }
-    
+
     header img {
         padding-top: 30px;
         width: 150px;
@@ -49,7 +49,7 @@
         margin-top: 60px;
         align-self: center;
     }
-    
+
     .header--title-container {
         width: 90%;
         min-width: 288px;
@@ -59,14 +59,14 @@
         text-align: center;
         align-self: center;
     }
-    
+
     .header--title-container h1 {
         font-size: 2.4rem;
         font-weight: bold;
         line-height: 2.6rem;
         color: var(--white);
     }
-    
+
     .header--title-container p {
         margin-top: 25px;
         font-size: 1.4rem;
@@ -74,7 +74,7 @@
         line-height: .3rem;
         color: var(--off-white);
     }
-    
+
     .header--title-container .header--button {
         position: absolute;
         left: calc(50% - 116px);
@@ -94,7 +94,7 @@
         text-decoration: none;
         color: var(--black);
     }
-    
+
     .header--button span {
         display: inline-block;
         width: 13px;
@@ -129,12 +129,12 @@
         height: 100px;
         margin: 0 auto;
         margin-bottom: 50px;
-    
+
         background-size: auto;
         background-position: center;
         background-repeat: no-repeat;
     }
-    
+
     .main-information-container h2 {
         margin-bottom: 30px;
         font-size: 2.4rem;
@@ -149,10 +149,10 @@
         line-height: 1.6rem;
         color: #757575;
     }
-    
+
     /* BEM method: When I need to make a special selector "__" is the way to name the clas
     block, eement and modifier*/
-    
+
     .main-information-table {
         padding-top: 40px;
         width: 100%;
@@ -190,7 +190,7 @@
         height: 100%;
     }
     .information-table--container td {
-        
+
         width: 45%;
         font-size: 1.6rem;
         font-weight: 500;
@@ -198,9 +198,6 @@
         color: var(--grey-text);
         background-color: var(--white);
     }
-
-  
-
 
     .information-table--container .table__top-left {
         border-radius: 15px 0 0 0;
@@ -222,13 +219,7 @@
         line-height: 1.7rem;
         color: #757575;
     }
-    
 
-    
-    
-    
-   
-    
     .main-foda-detail {
         position: relative;
         width: 100%;
@@ -237,7 +228,7 @@
         padding: 20px 10px;
         background-color:whitesmoke;
     }
-    
+
     .foda-detail--certificates-logo {
         position: absolute;
         width: 40px;
@@ -247,7 +238,7 @@
         background-image: url(./asset/img/certificates1.svg);
         background-repeat: no-repeat;
     }
-    
+
     .foda-detail--title {
         display: flex;
         justify-content: center;
@@ -258,7 +249,7 @@
         margin-top: 50px;
         text-align:left;
     }
-    
+
     .foda-detail--title h2{
         margin-top: -30px;
         margin-bottom: 20px;
@@ -267,11 +258,11 @@
         line-height: 2.6rem;
         color: #3A3535;
     }
-    
+
     .foda-detail--title span {
         color:var(--secondary-blue);
     }
-    
+
     .foda-detail-card {
         width: 90%;
         min-width: 288px;
@@ -283,7 +274,7 @@
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
     }
-    
+
     .foda-detail-card .weak {
         display: inline-block;
         width: 20px;
@@ -294,7 +285,7 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    
+
     .foda--card-title  {
         position: absolute;
         margin-top: -30px;
@@ -304,18 +295,18 @@
         line-height: 1.8rem;
         color: var(--warm-black);
     }
-    
+
     .foda--card-body {
-       font-size: 1.4rem;
-       font-weight: 500;
-       line-height: 1.8rem;
-       color: #2a2a2a
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #2a2a2a
     }
 
     .foda-detail-card ul li {
         list-style: none;
     }
-    
+
     .foda-detail-card .threat {
         display: inline-block;
         width: 20px;
@@ -326,7 +317,7 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    
+
     .foda-detail-card .strength {
         display: inline-block;
         width: 20px;
@@ -337,7 +328,7 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    
+
     .foda-detail-card .opportunities {
         display: inline-block;
         width: 20px;
@@ -348,7 +339,7 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    
+
     .certificates-button {
         display: flex;
         justify-content: center;
@@ -360,13 +351,13 @@
         width: 100%;
         min-width: 320px;
         height: 50vh;
-        background-image: url("https://images.unsplash.com/photo-1577046848358-4623c0859b8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+        background-image: url("./asset/img/Banner\ profile.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
     }
-    
+
     .desings-img-container h2 {
         padding-top: 140px;
         font-size: 2.4rem;
@@ -374,14 +365,14 @@
         line-height: 2.6rem;
         color: var(--white);
     }
-    
+
     .main-desings-container {
         width: 100%;
         min-width: 320px;
         padding-bottom: 70px;
         text-align: center;
     }
-    
+
     .desings--title {
         width: 90%;
         min-width: 288px;
@@ -389,7 +380,7 @@
         margin: 0 auto;
         margin-bottom: 50px;
     }
-    
+
     .desings--title h2 {
         padding-top: 50px;
         font-size: 2.4rem;
@@ -397,7 +388,7 @@
         line-height: 2.6rem;
         color: var(--black);
     }
-    
+
     .desings--title p {
         padding-top: 30px;
         font-size: 1.4rem;
@@ -405,8 +396,7 @@
         line-height: 1.8rem;
         color: #757575;
     }
-    
-    
+
     .desings-container--slider{
         display: flex;
         height: 316px;
@@ -414,8 +404,7 @@
         overscroll-behavior-x: contain;
         scroll-snap-type: x proximity;
     }
-    
-    
+
     .desings-container--card {
         position: relative;
         scroll-snap-align: center;
@@ -425,7 +414,7 @@
         height: 250px;
         margin: 50px 5px 0;
         padding: 0 15px;
-        background-color: #f8d2ac;
+        background-color: #757575;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -442,7 +431,7 @@
         height: 250px;
         margin: 50px 5px 0;
         padding: 0 15px;
-        background-color: #a378ad;
+        background-color: #A0796A;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -459,14 +448,14 @@
         height: 250px;
         margin: 50px 5px 0;
         padding: 0 15px;
-        background-color: whitesmoke;
+        background-color: #FAE737;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 15px;
         box-shadow: 0 4px 8px rgba(89,73,30,0.16);
     }
-    
+
     .recomended{
         position: absolute;
         width: 120px;
@@ -479,7 +468,7 @@
         border-radius: 8px;
         color: var(--white);
     } /*--------- aqui comienza la tarjeta general*/
-    
+
     .desing-card--title {
         text-decoration: none;
         padding-top: 30px;
@@ -488,7 +477,7 @@
         line-height: 1.8rem;
         color: white;
     }
-  
+
     .desing-card--logo {
         display: inline-block;
         width: 80%;
@@ -502,10 +491,10 @@
 
     .desing-card--logo2 {
         display: inline-block;
-        width: 80%;
+        width: 50%;
         height: 90px;
         margin-bottom: -90px;
-        background-image: url(./asset/img/violeta-home.svg);
+        background-image: url(./asset/img/PPT-game.svg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -513,21 +502,21 @@
 
     .desing-card--logo3 {
         display: inline-block;
-        width: 80%;
+        width: 40%;
         height: 90px;
         margin-bottom: -90px;
-        background-image: url(./asset/img/crece-seguro.svg);
+        background-image: url(./asset/img/MOKEPON.svg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
-    
+
     .desing-card-saving {
         padding-top: 80px;
         font-size: 1.2rem;
         color: #000000;
     }
-    
+
     .desing-card--ca {
         width: 150px;
         height: 48px;
@@ -547,7 +536,7 @@
         box-shadow: 0 1px 6px 0 #20212447;
         border-color: #dfe1e500;
     }
-    
+
     .desing-card--ca span{
         display: inline-block;
         width: 20px;
@@ -555,25 +544,25 @@
         background-image: url();
         vertical-align: text-bottom;
     }
-    
+
     footer {
         display: flex;
         width: 100%;
         height: auto;
-        background-color: #80ED99;
+        background-color: #8AF00C;
     }
-    
-     .right section {
+
+    .right section {
         display: inline-block;
         width: 50%;
         justify-content: center;
         align-items: center;
     }
 
-     .left section {
+    .left section {
         display: flex;
     }
-    
+
     footer {
         justify-content: center;
     }
@@ -591,7 +580,7 @@
     .github-logo {
         margin-top: 4px;
     }
-    
+
     .right a {
         text-decoration: none;
         color: var(--white);
@@ -604,7 +593,6 @@
     .profetional-photo img {
         position: relative;
         margin: 10px 10px;
-        
     }
 
     .profetional-title {
@@ -618,17 +606,3 @@
         height: 50px;
     }
 
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
