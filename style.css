@@ -105,7 +105,7 @@
     main {
         width: 100%;
         height: auto;
-        background-color: #E1E8EB;
+        background-color: #dff7c2
     }
     .main-information-container {
         width: 100%;
@@ -147,7 +147,7 @@
         font-size: 1.4rem;
         font-weight: 500;
         line-height: 1.6rem;
-        color: #757575;
+        color: #1a1d17;
     }
 
     /* BEM method: When I need to make a special selector "__" is the way to name the clas
@@ -270,7 +270,7 @@
         min-height: 150px;
         margin: 15px auto;
         padding: 15px;
-        background-color: #E1E8EB ;
+        background-color: #bcf577 ;
         border-radius: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
     }
@@ -502,7 +502,7 @@
 
     .desing-card--logo3 {
         display: inline-block;
-        width: 40%;
+        width: 35%;
         height: 90px;
         margin-bottom: -90px;
         background-image: url(./asset/img/MOKEPON.svg);
