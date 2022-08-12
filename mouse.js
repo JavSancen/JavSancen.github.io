@@ -31,7 +31,7 @@ function dibujarMouse(evento) {
   var colorcito = color.value;
   var xFinal = evento.clientX;
   var yFinal = evento.clientY;
-  
+
 
   if (estadoMouse) {
     dibujarLinea(colorcito, xIncial, yInicial, xFinal, yFinal, papel);
@@ -61,8 +61,8 @@ function watchColorPicker(event) {
   });
 }
 
-var s = getComputedStyle(canvas); 
-var w = s.width; 
+var s = getComputedStyle(canvas);
+var w = s.width;
 var h = s.height;
 
 canvas.width = w.split('px')[0];
