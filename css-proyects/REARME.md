@@ -78,3 +78,23 @@ PROPIEDADES DE UBICACIÓN:
 
 
 
+FUNCIONES ESPECIALES:
+
+- minmax    Es la propiedad que define un minimo de ancho y alto para la celda
+
+- repeat    ayuda a indicar las veces que un valor se repetira, primero se declara las veces que se repite y luego el valor a repetir
+
+
+
+
+KEYWORDS ESPECIALES:
+
+- fr  indica la fraccion de la grilla a ocupar
+
+- min-content   elemento a su expresion minima
+
+- max-content   elemeto a su expresion máxima
+
+- auto-fill     que la grilla ocupe el 100% del espacio que tiene
+
+/auto-fit   Ensancha las columnas que ya tenemos para ocupar el 100%
