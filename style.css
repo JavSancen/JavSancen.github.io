@@ -456,6 +456,23 @@
         box-shadow: 0 4px 8px rgba(89,73,30,0.16);
     }
 
+    .desings-container--card4 {
+        position: relative;
+        scroll-snap-align: center;
+        width: 70%;
+        min-width: 190px;
+        max-width: 300px;
+        height: 250px;
+        margin: 50px 5px 0;
+        padding: 0 15px;
+        background-color: #ff8c2a;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+    }
+
     .recomended{
         position: absolute;
         width: 120px;
@@ -506,6 +523,17 @@
         height: 90px;
         margin-bottom: -90px;
         background-image: url(./asset/img/MOKEPON.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .desing-card--logo4 {
+        display: inline-block;
+        width: 30%;
+        height: 90px;
+        margin-bottom: -90px;
+        background-image: url('https://i.postimg.cc/rw63Mc2M/plate5.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
