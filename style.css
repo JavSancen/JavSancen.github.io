@@ -86,7 +86,7 @@
         height: 48px;
         background-color: var(--off-white);
         /*sobra*/
-        box-shadow: 0px 4px 8px rgba(89, 73,30, 0.16);
+        box-shadow: 0px 4px 50px rgba(231, 231, 227, 0.527);
         border: none;
         border-radius: 20px;
         font-size: 1.4rem;
@@ -102,6 +102,7 @@
         margin-left: 10px;
         background-image: url('./assets/icons/arrow-down.svg');
     }
+
     main {
         width: 100%;
         height: auto;
@@ -272,7 +273,7 @@
         padding: 15px;
         background-color: #bcf577 ;
         border-radius: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+        box-shadow: 0 4px 8px rgba(122, 121, 121, 0.836);
     }
 
     .foda-detail-card .weak {
