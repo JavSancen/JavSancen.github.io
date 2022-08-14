@@ -103,7 +103,7 @@
         background-image: url('./assets/icons/arrow-down.svg');
     }
 
-    .services-title {
+    .about-title {
         color: #333;
         font-size: 3rem;
         font-weight: 400;
@@ -112,25 +112,25 @@
         margin: 100px 0 50px 0;
     }
 
-    .dishes {
+    .space {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
         grid-template-rows: repeat(2, minmax(150px, 1fr));
         grid-gap: 50px;
     }
 
-    .dishes-image {
+    .space-image {
         margin: 0;
     }
 
-    .dishes-image img {
+    .space-image img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         border-radius: 40px;
     }
 
-    .dishes-image__big {
+    .space-image__big {
         grid-area: 1 / 1 / 3 / 3;
     }
 
@@ -608,26 +608,14 @@
     .info-title {
         font-size: 2.5rem;
     }
-    .services-title, .menu-title {
+    .about-title {
         font-size: 2rem;
-    }
-
-    .plates {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
 }
 
 @media screen and (max-width: 768px) {
-    .hero {
-        grid-template-columns: 1fr;
-        padding-bottom: 50px;
-    }
 
-    .hero-image{
-        display: none;
-    }
-
-    .dishes {
+    .space {
         grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
         grid-template-rows: repeat(2, minmax(135px, 1fr));
         grid-gap: 25px;
