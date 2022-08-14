@@ -56,6 +56,8 @@ function ataqueTierra() {
     ataquePlayer = 'TIERRA'
     ataqueAleatorioEnemy()
 }
+
+
 function ataqueAleatorioEnemy() {
     let ataqueAleatorio = aleatorio(1,3)
 
@@ -66,6 +68,17 @@ function ataqueAleatorioEnemy() {
     } else {
         ataqueEnemy = 'TIERRA'
     }
+
+    createMensaje()
+}
+
+function createMensaje() {
+    let sectionMensajes = document.getElementById('mensajes')
+
+    let parrafo = document.createElement('p')
+    parrafo.innerHTML = 'Tu mascota ataco con ' + ataquePlayer + ', la mascota del enemigo ataco con ' + ataqueEnemy + ' . PENDIENTE'
+
+    sectionMensajes.appendChild(parrafo)
 }
 
 
