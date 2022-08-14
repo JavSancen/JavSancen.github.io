@@ -4,27 +4,6 @@
     width: 50px;
 }
 
-.main-tables--container {
-    display: flex;
-    width: 600px;
-    margin: 0 auto;
-}
-
-.hero {
-    grid-template-columns: 1fr;
-    padding-bottom: 50px;
-}
-
-.hero-image{
-    display: none;
-}
-
-.dishes {
-    grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
-    grid-template-rows: repeat(2, minmax(135px, 1fr));
-    grid-gap: 25px;
-}
-
 .foda-cards--container {
     display: flex;
     flex-wrap: wrap;

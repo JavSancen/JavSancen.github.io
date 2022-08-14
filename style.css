@@ -603,3 +603,33 @@
     }
 
 
+  /* Media queries */
+  @media screen and (max-width: 1024px) {
+    .info-title {
+        font-size: 2.5rem;
+    }
+    .services-title, .menu-title {
+        font-size: 2rem;
+    }
+
+    .plates {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        grid-template-columns: 1fr;
+        padding-bottom: 50px;
+    }
+
+    .hero-image{
+        display: none;
+    }
+
+    .dishes {
+        grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+        grid-template-rows: repeat(2, minmax(135px, 1fr));
+        grid-gap: 25px;
+    }
+}
