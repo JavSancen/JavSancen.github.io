@@ -91,7 +91,7 @@ function createMensaje(resultado) {
     let sectionMensajes = document.getElementById('mensajes')
 
     let parrafo = document.createElement('p')
-    parrafo.innerHTML = 'Tu mascota ' + botonPetPlayer + 'ataco con ' + ataquePlayer + ', la mascota del enemigo ataco con ' + ataqueEnemy + ' - ' + resultado
+    parrafo.innerHTML = 'Tu mascota ataco con ' + ataquePlayer + ', la mascota del enemigo ataco con ' + ataqueEnemy + ' - ' + resultado
 
     sectionMensajes.appendChild(parrafo)
 }
