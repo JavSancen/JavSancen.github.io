@@ -365,7 +365,41 @@
         color: azure;
     }
 
+    /*Testing
+
     .desings-container--slider{
+        transition: 450ms -webkit-transform;
+        transition: 450ms transform;
+        transition: 450ms transform, 450ms -webkit-transform;
+        font-size: 0;
+        white-space:initial;
+        margin: 70px 0px;
+        padding-bottom: 10px;
+    }
+
+    .desings-container--slider:hover, .card-container{
+        opacity: 0.3;
+    }
+
+    .desings-container--slider, .card-container:hover{
+        -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    opacity: 200;
+    }
+
+    .card-container {
+        overflow:hidden;
+        position: relative;
+        cursor: pointer;
+        transition: 450ms all;
+        -webkit-transform-origin: center;
+        transform-origin: center;
+    }
+
+    /*Testing*/
+
+    .desings-container--slider{
+        transition: 450ms;
         display: flex;
         height: 316px;
         overflow-x: scroll;

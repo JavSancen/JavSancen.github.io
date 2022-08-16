@@ -1,5 +1,7 @@
 let ataquePlayer
 let ataqueEnemy
+let vidasPlayer = 3
+let vidasEnemy = 3
 
 function startGame() {
     let botonPetPlayer = document.getElementById('boton-pet')
@@ -73,16 +75,27 @@ function ataqueAleatorioEnemy() {
 }
 
 function combate() {
+    let spanVidasPlayer = document.getElementById('vidas-player')
+    let spanVidasEnemy = document.getElementById('vidas-enemy')
+
     if (ataqueEnemy == ataquePlayer) {
         createMensaje("EMPATE")
         } else if (ataquePlayer == 'FUEGO 🔥' && ataqueEnemy == 'TIERRA 🌱') {
         createMensaje("GANASTE 🎉")
+        vidasEnemy--
+        spanVidasEnemy.innerHTML = vidasEnemy
         } else if (ataquePlayer == 'AGUA 💧' && ataqueEnemy == 'FUEGO 🔥') {
         createMensaje("GANASTE 🎉")
+        vidasEnemy--
+        spanVidasEnemy.innerHTML = vidasEnemy
         } else if (ataquePlayer == 'TIERRA 🌱' && ataqueEnemy == 'AGUA 💧') {
         createMensaje("GANASTE 🎉")
+        vidasEnemy--
+        spanVidasEnemy.innerHTML = vidasEnemy
         } else {
         createMensaje("PERDISTE")
+        vidasPlayer--
+        spanVidasPlayer.innerHTML = vidasPlayer
         }
     }
 
