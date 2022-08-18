@@ -4,6 +4,12 @@ let vidasPlayer = 3
 let vidasEnemy = 3
 
 function startGame() {
+    let sectionReset = document.getElementById('boton-reiniciar')
+    sectionReset.style.display = 'none'
+
+    let sectionSeleccionarAtaque = document.getElementById('select-attack')
+    sectionSeleccionarAtaque.style.display = 'none'
+
     let botonPetPlayer = document.getElementById('boton-pet')
     botonPetPlayer.addEventListener('click', selectPetPlayer)
 
@@ -13,9 +19,18 @@ function startGame() {
     botonAgua.addEventListener('click', ataqueAgua)
     let botonTierra = document.getElementById('boton-tierra')
     botonTierra.addEventListener('click', ataqueTierra)
+
+    let botonReiniciar = document.getElementById('boton-reiniciar')
+    botonReiniciar.addEventListener('click', reiniciarJuego)
 }
 
 function selectPetPlayer() {
+    let sectionSeleccionarPet = document.getElementById('select-pet')
+    sectionSeleccionarPet.style.display = 'none'
+
+    let sectionSeleccionarAtaque = document.getElementById('select-attack')
+    sectionSeleccionarAtaque.style.display = 'block'
+
     let inputHipodoge = document.getElementById('Hipodoge')
     let inputCapipepo = document.getElementById('Capipepo')
     let inputRatigueya = document.getElementById('Ratigueya')
@@ -120,6 +135,9 @@ function createMensaje(resultado) {
 }
 
 function createMensajeFinal(resultadoFinal) {
+    let sectionReset = document.getElementById('boton-reiniciar')
+    sectionReset.style.display = 'block'
+
     let sectionMensajes = document.getElementById('mensajes')
 
     let parrafo = document.createElement('p')
@@ -127,6 +145,17 @@ function createMensajeFinal(resultadoFinal) {
     parrafo.innerHTML = resultadoFinal
 
     sectionMensajes.appendChild(parrafo)
+
+    let botonFuego = document.getElementById('boton-fuego')
+    botonFuego.disabled = true
+    let botonAgua = document.getElementById('boton-agua')
+    botonAgua.disabled = true
+    let botonTierra = document.getElementById('boton-tierra')
+    botonTierra.disabled = true
+}
+
+function reiniciarJuego() {
+    location.reload()
 }
 
 function aleatorio(min, max) {
