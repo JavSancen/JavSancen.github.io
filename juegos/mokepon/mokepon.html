@@ -6,22 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./asset/img/photo-brand2.svg">
+    <link rel="stylesheet" href="./mokepon.css">
     <title>MOKEPON!</title>
 </head>
 
 <body>
-    <h1>MOKEPON! 🔥💧🌱</h1>
 
     <section id="select-pet">
-        <h2>Elige tu mascota:</h2>
+        <h1 class="titulo"><img src="../../asset/img/Mokepon/PPT-game.svg" alt=""></h1>
 
-        <label for="Hipodoge">Hipodoge</label>
+        <h2 class="subtitle">Elige tu mascota:</h2>
+
+        
+        <label class="tarjeta-mokepon" for="Hipodoge">Hipodoge</label>
         <input type="radio" name="mascota" id="Hipodoge"/>
 
-        <label for="Capipepo">Capipepo</label>
+        <label class="tarjeta-mokepon" for="Capipepo">Capipepo</label>
         <input type="radio" name="mascota" id="Capipepo"/>
 
-        <label for="Ratigueya">Ratigueya</label>
+        <label class="tarjeta-mokepon" for="Ratigueya">Ratigueya</label>
         <input type="radio" name="mascota" id="Ratigueya"/>
 
         <button id="boton-pet">Seleccionar</button>
@@ -29,6 +32,8 @@
     </section>
 
     <section id="select-attack">
+        <h1 class="titulo">MOKEPON! 🔥💧🌱</h1>
+
         <h2>Elije tu ataque:</h2>
 
         <p>Tu mascota <span id="pet-player"></span> tiene <span id="vidas-player">3</span> vidas</p>
