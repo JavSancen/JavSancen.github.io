@@ -1,4 +1,5 @@
-* {
+body {
+    position:relative;
     width: auto;
     height: auto;
     background-image: url('../../asset/img/Mokepon/IMG_20220817_161759_621.jpg');
