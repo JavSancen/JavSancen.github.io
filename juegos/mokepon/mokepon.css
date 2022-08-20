@@ -27,6 +27,11 @@ body {
     align-items: center;
 }
 
+.tarjetas {
+    display: flex;
+    gap: 20px;
+}
+
 .tarjeta-mokepon {
     width: 100px;
     height: 100px;
