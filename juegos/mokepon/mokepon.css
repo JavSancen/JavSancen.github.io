@@ -37,6 +37,10 @@ body {
     box-sizing: border-box;
 }
 
+.section-atack {
+    color: azure;
+}
+
 input {
     display: none;
 }
