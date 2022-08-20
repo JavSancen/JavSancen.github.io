@@ -83,6 +83,10 @@ body {
     border-color: #dfe1e500;
 }
 
+#mensajes {
+    color: azure;
+}
+
 input {
     display: none;
 }
