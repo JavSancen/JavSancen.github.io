@@ -4,3 +4,9 @@ body {
     height: auto;
     background-image: url('../../asset/img/photo1601379968.jpeg');
 }
+
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
