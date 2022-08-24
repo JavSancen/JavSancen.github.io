@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #201E1C ;
+}
+
+.menu-home ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 20px;
+}
+
+.menu-home a {
+    display: block;
+    padding: 2em;
+    background-color: #74716c;
+    text-decoration: none;
+    color: #191C26;
+}
+
+.menu-home a:hover {
+    background-color: #8AF00C
+}
+
+.menu-home ul li ul {
+    display: none;
+}
+.menu-home a:hover + ul, .menu-home ul li ul:hover {
+    display: block;
+}
+

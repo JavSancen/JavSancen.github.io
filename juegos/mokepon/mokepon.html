@@ -44,27 +44,33 @@
     </section>
 
     <section class="section-atack" id="select-attack">
-        <h1 class="titulo">MOKEPON! 🔥💧🌱</h1>
+        <h1 class="titulo"><img src="../../asset/img/Mokepon/PPT-game.svg" alt=""></h1>
 
-        <h2>Elije tu ataque:</h2>
+        <h2 class="subtitle">Elige tu ataque:</h2>
 
-        <p>Tu mascota <span id="pet-player"></span> tiene <span id="vidas-player">3</span> vidas</p>
-        <p>La mascota <span id="pet-enemy"></span> del enemigo tiene <span id="vidas-enemy">3</span> vidas</p>
+        <div>
+            <button id="boton-fuego" class="boton-ataque">Fuego 🔥</button>
+            <button id="boton-agua" class="boton-ataque">Agua 💧</button>
+            <button id="boton-tierra" class="boton-ataque">Tierra 🌱</button>
+        </div>
 
-        <p>
-            <button id="boton-fuego">Fuego 🔥</button>
-            <button id="boton-agua">Agua 💧</button>
-            <button id="boton-tierra">Tierra 🌱</button>
-        </p>
+        <div>
+            <section id="mensajes">
+            </section>
+
+            <section id="reiniciar">
+                <button id="boton-reiniciar">Reiniciar</button>
+            </section>
+        </div>
+
+        <div>
+            <p>Tu mascota <span id="pet-player"></span> tiene <span id="vidas-player">3</span> vidas</p>
+            <p>La mascota <span id="pet-enemy"></span> del enemigo tiene <span id="vidas-enemy">3</span> vidas</p>
+        </div>
+
     </section>
 
-    <section id="mensajes">
 
-    </section>
-
-    <section id="reiniciar">
-        <button id="boton-reiniciar">Reiniciar</button>
-    </section>
 
     <script src="./mokepon.js"></script>
 </body>

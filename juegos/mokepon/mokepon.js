@@ -29,7 +29,7 @@ function selectPetPlayer() {
     sectionSeleccionarPet.style.display = 'none'
 
     let sectionSeleccionarAtaque = document.getElementById('select-attack')
-    sectionSeleccionarAtaque.style.display = 'block'
+    sectionSeleccionarAtaque.style.display = 'flex'
 
     let inputHipodoge = document.getElementById('Hipodoge')
     let inputCapipepo = document.getElementById('Capipepo')
@@ -120,7 +120,7 @@ function combate() {
             createMensajeFinal('FELICITACIONES! Ganaste 😎')
         }    else if (vidasPlayer == 0) {
             createMensajeFinal('Lo siento perdiste 😥')
-        } 
+        }
     }
 
 
@@ -128,7 +128,7 @@ function createMensaje(resultado) {
     let sectionMensajes = document.getElementById('mensajes')
 
     let parrafo = document.createElement('p')
-    
+
     parrafo.innerHTML = 'Tu mascota ataco con ' + ataquePlayer + ', la mascota del enemigo ataco con ' + ataqueEnemy + ' - ' + resultado
 
     sectionMensajes.appendChild(parrafo)
@@ -141,7 +141,7 @@ function createMensajeFinal(resultadoFinal) {
     let sectionMensajes = document.getElementById('mensajes')
 
     let parrafo = document.createElement('p')
-    
+
     parrafo.innerHTML = resultadoFinal
 
     sectionMensajes.appendChild(parrafo)
