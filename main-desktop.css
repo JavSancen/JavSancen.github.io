@@ -16,9 +16,10 @@
     justify-content: center;
 }
 
-.desing-card--logo{
-    height: 34px;
+.desing-card--logo4{
+    width: 28%;
 }
+
 
 footer {
     display: flex;
