@@ -7,7 +7,7 @@ body {
     position:relative; 
     width: auto;
     height: auto;
-    background-image: url('../../asset/img/Mokepon/IMG_20220817_161759_621.jpg');
+    background: #20212447;
 }
 
 .titulo {
@@ -31,7 +31,7 @@ body {
     border-radius: 10px;
     border: 2px solid #FFB200;
     width: 300px;
-    color: #292928d5;
+    color: #201E1C;
 }
 
 #select-pet {
