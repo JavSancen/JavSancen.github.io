@@ -593,10 +593,6 @@
         display: flex;
     }
 
-    footer {
-        justify-content: center;
-    }
-
     footer .right ul {
         display: flex;
         padding: 15px 10px;

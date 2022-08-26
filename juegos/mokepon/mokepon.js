@@ -125,26 +125,28 @@ function combate() {
 
 
 function createMensaje(resultado) {
-    let sectionMensajes = document.getElementById('mensajes')
+    let sectionMensajes = document.getElementById('resultado')
+    let ataquesOfPlayer = document.getElementById('ataques-Player')
+    let ataquesOfEnemy = document.getElementById('ataques-Enemy')
 
-    let parrafo = document.createElement('p')
+    let nuevoAtaquePlayer = document.createElement('p')
+    let nuevoAtaqueEnemy = document.createElement('p')
 
-    parrafo.innerHTML = 'Tu mascota ataco con ' + ataquePlayer + ', la mascota del enemigo ataco con ' + ataqueEnemy + ' - ' + resultado
+    sectionMensajes.innerHTML = resultado
+    nuevoAtaquePlayer.innerHTML = ataquePlayer
+    nuevoAtaqueEnemy.innerHTML = ataqueEnemy
 
-    sectionMensajes.appendChild(parrafo)
+    ataquesOfPlayer.appendChild(nuevoAtaquePlayer)
+    ataquesOfEnemy.appendChild(nuevoAtaqueEnemy)
 }
 
 function createMensajeFinal(resultadoFinal) {
     let sectionReset = document.getElementById('boton-reiniciar')
     sectionReset.style.display = 'block'
 
-    let sectionMensajes = document.getElementById('mensajes')
+    let sectionMensajes = document.getElementById('resultado')
 
-    let parrafo = document.createElement('p')
-
-    parrafo.innerHTML = resultadoFinal
-
-    sectionMensajes.appendChild(parrafo)
+    sectionMensajes.innerHTML = resultadoFinal
 
     let botonFuego = document.getElementById('boton-fuego')
     botonFuego.disabled = true

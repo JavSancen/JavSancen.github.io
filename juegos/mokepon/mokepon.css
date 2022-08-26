@@ -98,11 +98,18 @@ body {
 }
 
 #mensajes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     text-align: center;
     background-color: #20212447;
     color: azure;
+    width: 280px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
 }
 
 input {
@@ -116,4 +123,12 @@ input {
     border-color: transparent;
     box-sizing: border-box;
     border-radius: 20px;
+}
+
+#boton-reiniciar {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    border: none;
+    background: none;
+    color: azure;
 }
