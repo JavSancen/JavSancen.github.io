@@ -22,6 +22,7 @@ body {
 }
 
 .subtitle {
+    margin-top: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     text-align: center;
@@ -35,6 +36,7 @@ body {
 }
 
 #select-pet {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,6 +44,7 @@ body {
 }
 
 .tarjetas {
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -92,7 +95,7 @@ body {
     font-size: .88rem;
 }
 
-.botton-pet:hover {
+.botton-pet:active {
     box-shadow: 0 10px 40px 20px #20212447;
     border-color: #dfe1e500;
 }
@@ -131,4 +134,13 @@ input {
     border: none;
     background: none;
     color: azure;
+}
+
+.ataques {
+    margin-top: -20px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 120px;
+    align-items: center;
+    text-align: center;
 }
