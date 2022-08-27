@@ -95,7 +95,7 @@ body {
     font-size: .88rem;
 }
 
-.botton-pet:active {
+.botton-pet:hover {
     box-shadow: 0 10px 40px 20px #20212447;
     border-color: #dfe1e500;
 }
@@ -119,6 +119,12 @@ input {
     display: none;
 }
 
+input:checked + label{
+    width: 190px;
+    height: 110px;
+    background: #FFB200;;
+}
+
 .boton-ataque {
     width: 100px;
     margin-top: 25px;
@@ -137,10 +143,17 @@ input {
 }
 
 .ataques {
-    margin-top: -20px;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 100px 100px;
-    gap: 120px;
+    gap: 40px;
     align-items: center;
     text-align: center;
 }
+
+.ataques-p, .ataques-e {
+    background: #E6D2AA;
+    color: #201E1C;
+    border-radius: 20px;
+}
+
