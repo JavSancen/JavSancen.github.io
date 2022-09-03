@@ -168,17 +168,3 @@ window.addEventListener('load', startGame)
 
 
 
-
-
-
-function moneyBox(coins) {
-    let saveCoins = 0;
-    saveCoins += coins;
-    console.log(`MoneyBox: $${saveCoins}`);
-}
-
-moneyBox(5);
-moneyBox(5);
-return saveCoins
-
-
