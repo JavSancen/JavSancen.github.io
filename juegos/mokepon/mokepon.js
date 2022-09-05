@@ -22,10 +22,30 @@ const sectionMensajes = document.getElementById('resultado')
 const ataquesOfPlayer = document.getElementById('ataques-Player')
 const ataquesOfEnemy = document.getElementById('ataques-Enemy')
 
+let mokepones = []
 let ataquePlayer
 let ataqueEnemy
 let vidasPlayer = 3
 let vidasEnemy = 3
+
+class Mokepon {
+    constructor(nombre, foto, vida) {
+        this.nombre = nombre
+        this.foto = foto
+        this.vida = vida
+    }
+}
+
+let Hipodoge = new Mokepon('Hipodoge', 'https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_hipodoge_attack.png', 5)
+
+let Capipepo = new Mokepon('Capipepo', 'https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_capipepo_attack.png', 5)
+
+let Ratigueya = new Mokepon('Ratigueya', 'https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_ratigueya_attack.png', 5)
+
+mokepones.push(Hipodoge,Capipepo,Ratigueya)
+
+console.log(mokepones)
+
 
 function startGame() {
 
