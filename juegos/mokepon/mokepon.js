@@ -33,18 +33,37 @@ class Mokepon {
         this.nombre = nombre
         this.foto = foto
         this.vida = vida
+        this.ataques = []
     }
 }
 
-let Hipodoge = new Mokepon('Hipodoge', 'https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_hipodoge_attack.png', 5)
+let hipodoge = new Mokepon('https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_hipodoge_attack.png' ,5)
+let capipepo = new Mokepon('https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_capipepo_attack.png' ,5)
+let ratigueya = new Mokepon('https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_ratigueya_attack.png' ,5)
 
-let Capipepo = new Mokepon('Capipepo', 'https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_capipepo_attack.png', 5)
+hipodoge.ataques.push(
+    {nombre:'💧', id:'boton-agua'},
+    {nombre:'💧', id:'boton-agua'},
+    {nombre:'💧', id:'boton-agua'},
+    {nombre:'🔥', id:'boton-fuego'},
+    {nombre:'🌱', id:'boton-tierra'}
+)
 
-let Ratigueya = new Mokepon('Ratigueya', 'https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_ratigueya_attack.png', 5)
+capipepo.ataques.push(
+    {nombre:'🌱', id:'boton-agua'},
+    {nombre:'🌱', id:'boton-agua'},
+    {nombre:'🌱', id:'boton-agua'},
+    {nombre:'🔥', id:'boton-fuego'},
+    {nombre:'💧', id:'boton-tierra'}
+)
 
-mokepones.push(Hipodoge,Capipepo,Ratigueya)
-
-console.log(mokepones)
+ratigueya.ataques.push(
+    {nombre:'🔥', id:'boton-agua'},
+    {nombre:'🔥', id:'boton-agua'},
+    {nombre:'🔥', id:'boton-agua'},
+    {nombre:'💧', id:'boton-fuego'},
+    {nombre:'🌱', id:'boton-tierra'}
+)
 
 
 function startGame() {
