@@ -21,10 +21,12 @@ const spanVidasEnemy = document.getElementById('vidas-enemy')
 const sectionMensajes = document.getElementById('resultado')
 const ataquesOfPlayer = document.getElementById('ataques-Player')
 const ataquesOfEnemy = document.getElementById('ataques-Enemy')
+const contenedorTarjetas = document.getElementById('contenedorTarjetas')
 
 let mokepones = []
 let ataquePlayer
 let ataqueEnemy
+let opcionMokepones
 let vidasPlayer = 3
 let vidasEnemy = 3
 
@@ -37,9 +39,9 @@ class Mokepon {
     }
 }
 
-let hipodoge = new Mokepon('https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_hipodoge_attack.png' ,5)
-let capipepo = new Mokepon('https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_capipepo_attack.png' ,5)
-let ratigueya = new Mokepon('https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_ratigueya_attack.png' ,5)
+let hipodoge = new Mokepon('Hipodoge', 'https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_hipodoge_attack.png' ,5)
+let capipepo = new Mokepon('Capipepo','https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_capipepo_attack.png' ,5)
+let ratigueya = new Mokepon('Ratigueya','https://static.platzi.com/media/tmp/class-files/github/curso-programacion-basica/curso-programacion-basica-35-assets-mokepones/programar/mokepon/assets/mokepons_mokepon_ratigueya_attack.png' ,5)
 
 hipodoge.ataques.push(
     {nombre:'💧', id:'boton-agua'},
@@ -65,10 +67,22 @@ ratigueya.ataques.push(
     {nombre:'🌱', id:'boton-tierra'}
 )
 
+mokepones.push(hipodoge,capipepo,ratigueya)
 
 function startGame() {
 
     sectionSeleccionarAtaque.style.display = 'none'
+
+    mokepones.forEach((mokepon) => {
+        opcionMokepones = `
+        <input type="radio" name="mascota" id=${mokepon.nombre}/>
+            <label class="tarjeta-mokepon" for=${mokepon.nombre}>
+                <p>${mokepon.nombre}</p>
+                <img src=${mokepon.foto} alt=${mokepon.nombre}>
+            </label>
+        `
+    contenedorTarjetas.innerHTML += opcionMokepones
+    })
 
     botonPetPlayer.addEventListener('click', selectPetPlayer)
 
