@@ -1,0 +1,37 @@
+* {
+    background-color: rgb(3, 3, 77);
+    color: azure;
+}
+
+.title:hover {
+    color: rgb(204, 184, 2);
+}
+
+li {
+    text-align: justify;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section, p, ol, div {
+    text-align: center;
+}
+
+img {
+    width: 10%;
+}
+
+.quote {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 15%;
+    font-size: 2em;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
