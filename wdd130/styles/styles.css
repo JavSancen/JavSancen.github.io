@@ -8,14 +8,14 @@
 
 
 #logo_link img{
-    width: 100px;
+    width: 50px;
     border-radius: 50%;
     display: flex;
 }
 
 header {
     width: 100%;
-    height: 100px;
+    height: 150px;
     z-index: 1;
     position: fixed;
     background-color: rgb(65, 64, 61);
@@ -74,8 +74,8 @@ main p {
     }
 
 #hero-msg {
-    font-size: 2rem;
-    padding-top: 80px;
+    font-size: 1.5rem;
+    padding-top: 40px;
 }
 
 #hero-msg h4{
@@ -178,11 +178,11 @@ a:hover {
 
 .msg h2 {
     padding-top: 20px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .msg p {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .join {
@@ -206,7 +206,7 @@ footer {
 }
 
 .contact {
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start
