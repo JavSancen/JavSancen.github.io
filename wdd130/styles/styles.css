@@ -11,7 +11,48 @@ a {
 }*/
 
 * {
-    border: 2px solid blue;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#logo_link img{
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    z-index: 1;
+    position: fixed;
+    background-color: rgb(65, 64, 61);
+    padding: 20px;
+}
+
+.nav_header {
+    color: azure;
+    margin-right: 150px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+    justify-content: space-between;
+}
+
+.a_header1 {
+    margin-left: -50px;
+}
+
+#hero-img{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 img {
@@ -30,7 +71,174 @@ main p {
     text-align: center;
 }
 
+
+#hero {
+    padding-top: 150px;
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    background-image: url('../srcs/pic/hero.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    }
+
+#hero-msg {
+    font-size: 2rem;
+    padding-top: 80px;
+}
+
+#hero-msg h4{
+    color: azure;
+}
+
+.home-title{
+    color: azure;
+}
+
+.button-box {
+    padding-top: 30px;
+}
+
+.button-box a{
+    color: azure;
+}
+
+.book {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    background: #767677;
+    margin: 0 0 25px;
+    padding: 15px;
+    border: 2px solid #212122;
+    border-radius: 20px;
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
 a:hover {
-    background-color: white;
-    color: steelblue;
+    color: rgb(255, 194, 25);
+}
+
+.home-grid {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.home-grid h2 {
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+.card-img {
+    border-radius: 20px;
+}
+
+.icon {
+    padding-top: 30px;
+    width: 100px;
+}
+
+#join-card{
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    background-color: darksalmon ;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.mountains{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+}
+
+.msg {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+    color: #2b2929;
+    font-weight: 400;
+    text-align: center;
+    background: #88898b;
+    margin: 0 0 25px;
+    padding: 20px;
+    border: 2px solid #212122;
+}
+
+.msg h2 {
+    padding-top: 20px;
+    font-size: 3rem;
+}
+
+.msg p {
+    font-size: 1.5rem;
+}
+
+.join {
+    font-size: 1rem;
+    text-align: center;
+    background: #767677;
+    margin: 0 0 25px;
+    padding: 15px;
+    border: 2px solid #212122;
+    width: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    background-color: rgb(65, 64, 61);
+    padding: 20px;
+}
+
+.contact {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+.contact p {
+    color: azure;
+    padding-left: 200px;
+}
+
+.social {
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.social a {
+    padding-right: 30px;
+}
+
+.social img {
+    border-radius: 20px
 }

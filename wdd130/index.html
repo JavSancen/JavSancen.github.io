@@ -9,19 +9,19 @@
 </head>
 <body>
     <header>
-        <a id="logo_link" href="index.html">
-            <img src="./srcs/pic/Kroad.png" alt="">
-        </a>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="#">Rivers</a>
-            <a href="site-plan-rafting.html">Rates/Dates</a>
-            <a href="#">Contact Us</a>
+            <div class="nav_header">
+                <div id="logo_link"><a  href="index.html"><img src="./srcs/pic/Kroad.png" alt=""></a></div>
+                <div class="a_header1" class="nav_direction"><a href="index.html">Home</a></div>
+                <div class="a_header2" class="nav_direction"><a href="#">Rivers</a></div>
+                <div class="a_header3" class="nav_direction"><a href="site-plan-rafting.html">Rates/Dates</a></div>
+                <div class="a_header4" class="nav_direction"><a href="#">Contact Us</a></div>
+            </div>
         </nav>
     </header>
     <div id="hero">
         <div id="hero-box">
-            <img id="hero-img" src="./srcs/pic/hero.png" alt="People enjoying white water rafting">
+            <!--img id="hero-img" src="" alt="People enjoying white water rafting"-->
         </div>
         <section id="hero-msg">
             <h1 class="home-title">Have An Adventure</h1>
@@ -31,31 +31,35 @@
             </div>
         </section>
     </div>
-    <main class="home-grid">
-        <section class="rivers-card">
-            <img class="card-img" src="./srcs/pic/rivers.jpg" alt="river in forest">
-            <img class="icon" src="./srcs/icons/river_icon.png" alt="river icon">
-            <h2>Rivers</h2>
-        </section>
-        <section class="camping-card">
-            <img class="card-img" src="./srcs/pic/camping.jpg" alt="tent in mountains">
-            <img class="icon" src="./srcs/icons/fire_icon.png" alt="fire icon">
-            <h2>Camping</h2>
-        </section>
-        <section class="rapids-card">
-            <img class="card-img" src="./srcs/pic/rapids.jpg" alt="rafting boat">
-            <img class="icon" src="./srcs/icons/oars.png" alt="oars icon">
-            <h2>Rapids</h2>
-        </section>
-        <img class="mountains" src="./srcs/pic/mountains.jpg" alt="Misty mountains">
-        <section class="msg">
-            <h2>More Than Just The Thrill</h2>
-            <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
-            <a class='join' href="rivers.html">Join Us</a>
-        </section>
+    <main>
+        <div class="home-grid">
+            <section class="rivers-card">
+                <img class="card-img" src="./srcs/pic/rivers.jpg" alt="river in forest">
+                <img class="icon" src="./srcs/icons/river_icon.png" alt="river icon">
+                <h2>Rivers</h2>
+            </section>
+            <section class="camping-card">
+                <img class="card-img" src="./srcs/pic/camping.jpg" alt="tent in mountains">
+                <img class="icon" src="./srcs/icons/fire_icon.png" alt="fire icon">
+                <h2>Camping</h2>
+            </section>
+            <section class="rapids-card">
+                <img class="card-img" src="./srcs/pic/rapids.jpg" alt="rafting boat">
+                <img class="icon" src="./srcs/icons/oars.png" alt="oars icon">
+                <h2>Rapids</h2>
+            </section>
+        </div>
+        <div id="join-card">
+            <img class="mountains" src="./srcs/pic/mountains.jpg" alt="Misty mountains">
+            <section class="msg">
+                <h2>More Than Just The Thrill</h2>
+                <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
+                <a class='join' href="rivers.html">Join Us</a>
+            </section>
+        </div>
     </main>
     <footer>
-        <div>
+        <div class="contact">
             <p>Francisco Zúñiga &copy; 2023</p>
             <p><a href="site-plan-rafting.html">Site Plan</a></p>
             <p><a href="#">Contact Us</a></p>
