@@ -1,6 +1,6 @@
 
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
@@ -8,18 +8,21 @@
 
 
 #logo_link img{
-    width: 50px;
+    margin-top: 10px;
+    width: 60px;
     border-radius: 50%;
     display: flex;
+    /* padding-top: 20px; */
+    /* border-top: 20px; */
 }
 
 header {
     width: 100%;
-    height: 150px;
+    height: 80px;
     z-index: 1;
     position: fixed;
     background-color: rgb(65, 64, 61);
-    padding: 20px;
+    /* padding: 10px; */
 }
 
 .nav_header {
@@ -51,13 +54,16 @@ img {
 }
 
 nav, footer {
-    text-align: center;
+    /* text-align: center; */
 }
 
 main p {
     width: 80%;
-    margin: 50px auto;
+    text-align: justify;
+    /* margin: 50px auto; */
+    margin: auto;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 
@@ -74,8 +80,8 @@ main p {
     }
 
 #hero-msg {
-    font-size: 1.5rem;
-    padding-top: 40px;
+    font-size: 2rem;
+    /* padding-top: 20px; */
 }
 
 #hero-msg h4{
@@ -108,6 +114,8 @@ main p {
 
 a {
     text-decoration: none;
+    /* text-align: justify; */
+    /* text-align: justify; */
     color: azure;
 }
 
@@ -178,7 +186,8 @@ a:hover {
 
 .msg h2 {
     padding-top: 20px;
-    font-size: 2rem;
+    padding-bottom: 25px;
+    font-size: 1.5rem;
 }
 
 .msg p {
@@ -189,9 +198,11 @@ a:hover {
     font-size: 1rem;
     text-align: center;
     background: #767677;
-    margin: 0 0 25px;
+    margin-top: 0 0 200px;
+    margin-top: 200px;
     padding: 15px;
-    border: 2px solid #212122;
+    border: 1px solid #212122;
+
     width: 50px;
 }
 
@@ -214,11 +225,11 @@ footer {
 
 .contact p {
     color: azure;
-    padding-left: 200px;
+    padding-left: 80px;
 }
 
 .social {
-    padding-right: 100px;
+    padding-right: 50px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
