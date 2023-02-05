@@ -63,8 +63,8 @@ main p {
     text-align: justify;
     /* margin: 50px auto; */
     margin: auto;
-    text-align: center;
-    margin-bottom: 40px;
+    text-align: justify;
+    margin-bottom: 30px;
 }
 
 
@@ -108,7 +108,7 @@ main p {
     background: #767677;
     margin: 0 0 25px;
     padding: 15px;
-    border: 2px solid #212122;
+    border: 2px solid #d9d9da;
     border-radius: 20px;
     width: 50px;
 }
@@ -132,6 +132,7 @@ a:hover {
     flex-direction: row;
     align-self: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 .home-grid h2 {
@@ -169,7 +170,7 @@ a:hover {
 }
 
 .msg {
-    width: 40%;
+    width: 30%;
     height: 40%;
     position: absolute;
     top: 50%;
@@ -185,8 +186,7 @@ a:hover {
 }
 
 .msg h2 {
-    padding-top: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     font-size: 1.5rem;
 }
 
@@ -200,7 +200,8 @@ a:hover {
     background: #767677;
     margin-top: 0 0 200px;
     margin-top: 200px;
-    padding: 15px;
+    border-radius: 10px;
+    padding: 10px;
     border: 1px solid #212122;
 
     width: 50px;
