@@ -218,6 +218,7 @@ background-color: blue;
 display: grid;
 grid-template-columns: repeat(6, 1fr);
 grid-auto-rows: minmax(100px, auto);
+height: 800px;
 }
 .red6 {
 grid-column: 1/5;
@@ -243,7 +244,7 @@ background-color: gold;
 .blue6 {
   grid-column: 2/6;
   grid-row: 2/6;
-width: 800px;
+width: auto;
 height: auto;
 background-color: blue;
 }
