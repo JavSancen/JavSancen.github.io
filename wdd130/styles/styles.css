@@ -208,11 +208,14 @@ a:hover {
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+    align-items: center;
+    text-align: center;
 }
 
 .msg h2 {
     padding-bottom: 10px;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .msg p {
