@@ -23,13 +23,12 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     width: 100%;
-    height: 200px;
+    height: 100px;
     background-color: rgb(65, 64, 61);
     /* padding: 10px; */
 }
 
 nav {
-    margin-top: -100px;
     display: flex;
     justify-content: space-around;
     justify-items: center;
@@ -44,7 +43,6 @@ nav {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
 }
 
 #hero-box {
@@ -235,8 +233,8 @@ a:hover {
 footer {
     background-color: #6f7364;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
+    height: 100px;
     justify-content: space-around;
     align-items: center;
 }
@@ -253,6 +251,223 @@ footer {
     display: flex;
     flex-direction: row;
 }
+
+/*Page 2 Rivers grid styles
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    grid-template-rows: 2;
+    gap: 10px;
+    justify-items: start;
+    }
+
+    .river1 {
+    background-image: url("https://byui-wdd.github.io/wdd130/resources/images/river-narrow.jpg");
+    background-size: cover;
+    grid-column: 1/2;
+    grid-row: 1;
+    width: 100%;
+    height: 500px;
+    }
+    .river2 {
+        background-image: url("https://byui-wdd.github.io/wdd130/resources/images/rafting58_600.jpg");
+        background-size: cover;
+        grid-column: 2/3;
+        grid-row: 1;
+        margin-left: 20px;
+        width: 100%;
+        height: 500px;
+    }
+    .river3 {
+        background-image: url("https://byui-wdd.github.io/wdd130/resources/images/river-evening.jpg");
+        background-size: cover;
+        grid-column: 1/2;
+        grid-row: 2;
+        margin-right: 20px;
+        width: 100%;
+        height: 500px;
+    }
+    .river4 {
+        background-image: url("https://byui-wdd.github.io/wdd130/resources/images/rafting11_1024.jpg");
+        background-size: cover;
+        grid-column: 2/3;
+        grid-row: 2;
+        margin-left: 20px;
+        width: 100%;
+        height: 500px;
+        background-color: gold;
+    }
+
+    */
+
+    /* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    }
+
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+    }
+
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    }
+
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    }
+
+  /* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: -180px;
+    width: 100%;
+    text-align: center;
+    background-color: #454645;
+    background: rgba(0, 0, 0, 0.5);
+    }
+
+.text a {
+    font-size: 1rem;
+}
+
+  /* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    }
+
+  /* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+
+.active, .dot:hover {
+    background-color: #717171;
+    }
+
+  /* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+
+/*Slide1 area*/
+
+.slide1 {
+    color: #f2f2f2;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 50px 12px;
+    position: absolute;
+    top: 400px;
+    text-align: justify;
+    background-color: #454645;
+    background: rgba(0, 0, 0, 0.5);
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    }
+
+.slide1 p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.slide1 h1 {
+    text-align: center;
+}
+
+.slide2 {
+    color: #f2f2f2;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 50px 12px;
+    position: absolute;
+    top: 400px;
+    text-align: justify;
+    background-color: #454645;
+    background: rgba(0, 0, 0, 0.5);
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    }
+
+.slide2 p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.slide3 {
+    color: #f2f2f2;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 50px 12px;
+    position: absolute;
+    top: 400px;
+    text-align: justify;
+    background-color: #454645;
+    background: rgba(0, 0, 0, 0.5);
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    }
+
+.slide3 p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+/*Import area*/
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
 
