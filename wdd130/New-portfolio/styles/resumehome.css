@@ -143,6 +143,32 @@ footer {
     width: 20px;
 }
 
+/*MAIN section for RESUME page*/
+
+.titleandname {
+    color: azure;
+}
+
+.youtube img {
+    width: 50px;
+}
+
+.objective {
+    color: azure;
+}
+
+.skills {
+    color: azure;
+}
+
+.achievements {
+    color: azure;
+}
+
+.studies {
+    color: azure;
+}
+
 a {
     text-decoration: none;
     color: azure;
