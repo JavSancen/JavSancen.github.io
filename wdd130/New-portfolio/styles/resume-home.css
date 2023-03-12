@@ -90,12 +90,21 @@ main {
 
 .work {
     grid-row: 6/7;
-    width: 70%;
-    padding-left: 18%;
-    padding-top: 5%;
+    width: 20%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     font-size: 1rem;
     text-align: justify;
+    ;
     color: azure;
+}
+
+.work {
+    border: 2px solid #d9d9da;
+    border-radius: 20px;
+    margin-left: 18%;
+    margin-top: 5%;
 }
 
 /*-----All Related to the FOOTER-----*/
