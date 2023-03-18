@@ -59,6 +59,17 @@ header {
     width: 60px;
 }
 
+.home {
+    justify-self: end;
+    grid-column: 2/3;
+    grid-row: 1;
+    padding-top: 15%;
+}
+
+.home img {
+    width: 60px;
+}
+
 /*-----All Related to the MAIN-----*/
 
 main {
