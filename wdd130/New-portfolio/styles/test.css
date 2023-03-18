@@ -20,11 +20,12 @@ html {
 }
 
 body {
-    min-height: 100vh;
+    max-height: 900px;
+    min-height: 600px;
     max-width: 400px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: auto 60vh auto;
+    grid-template-rows: auto 80vh auto;
 }
 
 /*-----All Related to the HEADER-----*/
@@ -75,7 +76,7 @@ header {
 main {
     display: grid;
     grid-template-columns: 1;
-    grid-auto-rows: 25% 120px 20px 50px 30px 30%;;
+    grid-auto-rows: 30% 120px 20px 50px 30px 30%;;
     height: auto;
 }
 
