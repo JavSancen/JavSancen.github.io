@@ -66,7 +66,7 @@ header {
 main {
     display: grid;
     grid-template-columns: 1;
-    grid-auto-rows: 25% 120px 20px 50px 30px 25%;;
+    grid-auto-rows: 25% 120px 20px 60px 30px 25%;;
     height: auto;
 }
 .brand {
@@ -96,16 +96,14 @@ main {
 }
 .work {
     grid-row: 5/6;
-    width: 20%;
+    width: 25%;
     height: 100%;
-    margin-top: 2%;
     font-size: 1rem;
     text-align: center;
     color: azure;
 }
 .work {
     border: 2px solid #d9d9da;
-    border-bottom-width: 5%;
     border-radius: 20px;
     margin-left: 18%;
 }
