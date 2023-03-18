@@ -15,6 +15,7 @@
 }
 
 html {
+    height: 100%;
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
 }
@@ -23,7 +24,6 @@ body {
     margin: 0;
     display: grid;
     min-height: 100vh;
-    height: 100%;
     grid-template-rows: auto 1fr auto;
 }
 
@@ -64,7 +64,7 @@ header {
 main {
     display: grid;
     grid-template-columns: 1;
-    grid-auto-rows: 20% 10% 20% 5% 1% 5% 10% 20% 10% 10%;
+    grid-auto-rows: 10% 10% 15% 50px 10px 5% 55px 30px 30%;
     height: 60vh;
 }
 
@@ -98,18 +98,18 @@ main {
 .work {
     grid-row: 8/9;
     width: 20%;
-    height: 30%;
+    height: 4vh;
     font-size: 1rem;
     text-align: center;
-    align-content: center;
     color: azure;
 }
 
 .work {
     border: 2px solid #d9d9da;
+    padding-top: .5vh;
+    border-bottom-width: 5%;
     border-radius: 20px;
     margin-left: 18%;
-    margin-top: 2%;
 }
 
 
@@ -177,4 +177,10 @@ footer {
 a {
     text-decoration: none;
     color: azure;
+}
+
+@media screen and (max-width: 900px) {
+    .work {
+        height: 5vh;
+    }
 }
