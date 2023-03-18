@@ -21,7 +21,9 @@ body {
     max-width: 400px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: auto 80vh auto;
+    grid-template-rows: 5vh 80vh 5vh;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 /*-----All Related to the HEADER-----*/
 header {
