@@ -76,7 +76,7 @@ main {
     display: grid;
     grid-template-columns: 1;
     grid-auto-rows: 25% 1rem 5% 10% 10% 25% ;
-    height: 100vh;
+    height: 70%;
 }
 
 .brand {
