@@ -21,7 +21,7 @@ body {
     max-width: 400px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 10vh 80vh auto;
+    grid-template-rows: auto 80vh auto;
 }
 /*-----All Related to the HEADER-----*/
 header {
@@ -31,7 +31,6 @@ header {
     grid-auto-rows: 1;
     align-items: center;
     align-content: end;
-    height: auto;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -65,7 +64,7 @@ header {
 main {
     display: grid;
     grid-template-columns: 1;
-    grid-auto-rows: 30% 120px 20px 50px 30px 30%;;
+    grid-auto-rows: 25% 120px 20px 50px 30px 30%;;
     height: auto;
 }
 .brand {
