@@ -34,7 +34,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1;
     align-items: center;
-    height: 15%;
+    height: auto;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -132,7 +132,7 @@ footer {
     grid-template-columns: 2;
     grid-auto-rows: 2;
     align-items: center;
-    height: 15%;
+    height: auto;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10%;
@@ -212,6 +212,5 @@ a {
         display: grid;
         grid-template-columns: 1;
         grid-auto-rows: 30% 140px 25px 55px 40px 30%;
-        height: auto;
     }
 }
