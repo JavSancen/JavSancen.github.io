@@ -45,6 +45,8 @@ header {
 }
 .telegram {
     justify-self: end;
+    align-items: center;
+    margin-top: 1vh;
     grid-column: 2/3;
     grid-row: 1;
 }
@@ -64,7 +66,7 @@ header {
 main {
     display: grid;
     grid-template-columns: 1;
-    grid-auto-rows: 25% 120px 20px 50px 30px 30%;;
+    grid-auto-rows: 25% 120px 20px 50px 30px 25%;;
     height: auto;
 }
 .brand {
@@ -127,6 +129,7 @@ footer {
 }
 .name {
     color: azure;
+    margin-bottom: 1vh;
 }
 .am {
     grid-column: 2/3;
@@ -135,6 +138,10 @@ footer {
 }
 .am img {
     width: 20px;
+}
+
+.am p {
+    margin-bottom: 1vh;
 }
 /*MAIN section for RESUME page*/
 .titleandname {
