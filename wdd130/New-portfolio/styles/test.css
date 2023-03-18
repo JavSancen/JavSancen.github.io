@@ -44,6 +44,29 @@ header {
     font-size: 2rem;
     font-weight: 600;
 }
+
+.resume {
+    transition-property: transform;
+    transition: 1s ease;
+}
+
+.resume::after {
+    content: '';
+    border-top: 4px solid azure;
+    position: absolute;
+    width: 100%;
+    display: block;
+    transform: rotateY(90deg);
+    transition:transform .80s linear;
+  }
+
+  .resume:hover {
+    transform: scale(1);
+  }
+  .resume:hover::after {
+    transform: rotate(0deg);
+  }
+
 .telegram {
     justify-self: end;
     align-items: center;
