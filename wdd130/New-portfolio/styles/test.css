@@ -1,0 +1,187 @@
+/* MAQUETADO RESPONSIVE
+1. Posicionamiento
+2. Modelo de caja (Box model)
+3. Tipografia
+4. Visuales
+5. Otros
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #0B0B0B;
+
+}
+
+html {
+    height: 100%;
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+/*-----All Related to the HEADER-----*/
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1;
+    align-items: center;
+    height: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.resume {
+    grid-column: 1/2;
+    grid-row: 1;
+    justify-self: start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.telegram {
+    justify-self: end;
+    grid-column: 2/3;
+    grid-row: 1;
+    padding-top: 15%;
+}
+
+.telegram img {
+    width: 60px;
+}
+
+/*-----All Related to the MAIN-----*/
+
+main {
+    display: grid;
+    grid-template-columns: 1;
+    grid-auto-rows: 25% 25% 5% 10% 10% 25% ;
+    height: 100%;
+}
+
+.brand {
+    grid-row: 2/3;
+    justify-content: start;
+    padding-left: 20%;
+}
+
+.brand img {
+    width: 40%;
+}
+
+.title {
+    grid-row: 3/4;
+    padding-left: 18%;
+    font-size: 1rem;
+    color: #F69D17;
+}
+
+.presentation {
+    grid-row: 4/5;
+    width: 80%;
+    padding-left: 18%;
+    padding-top: 1%;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: azure;
+}
+
+.work {
+    grid-row: 5/6;
+    width: 20%;
+    height: 20%;
+    margin-top: 2%;
+    font-size: 1rem;
+    text-align: center;
+    color: azure;
+}
+
+.work {
+    border: 2px solid #d9d9da;
+    border-bottom-width: 5%;
+    border-radius: 20px;
+    margin-left: 18%;
+}
+
+
+/*-----All Related to the FOOTER-----*/
+
+footer {
+    display: grid;
+    grid-template-columns: 2;
+    grid-auto-rows: 2;
+    align-items: center;
+    height: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.social {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.social img {
+    width: 20px;
+}
+
+.name {
+    color: azure;
+}
+
+.am {
+    grid-column: 2/3;
+    text-align: end;
+    color: azure;
+}
+
+.am img {
+    width: 20px;
+}
+
+/*MAIN section for RESUME page*/
+
+.titleandname {
+    color: azure;
+}
+
+.youtube img {
+    width: 50px;
+}
+
+.objective {
+    color: azure;
+}
+
+.skills {
+    color: azure;
+}
+
+.achievements {
+    color: azure;
+}
+
+.studies {
+    color: azure;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+@media screen and (max-width: 900px) {
+    .work {
+        height: 5vh;
+    }
+}
