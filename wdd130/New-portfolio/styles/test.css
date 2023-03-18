@@ -25,15 +25,15 @@ body {
 }
 /*-----All Related to the HEADER-----*/
 header {
+    box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1;
     align-items: center;
-    align-content: start;
+    align-content: center;
     height: auto;
     padding-left: 10%;
     padding-right: 10%;
-    margin-top: 5%;
 }
 
 .resume {
@@ -65,7 +65,7 @@ header {
 main {
     display: grid;
     grid-template-columns: 1;
-    grid-auto-rows: 25% 120px 20px 50px 30px 25%;;
+    grid-auto-rows: 30% 120px 20px 50px 30px 30%;;
     height: auto;
 }
 .brand {
