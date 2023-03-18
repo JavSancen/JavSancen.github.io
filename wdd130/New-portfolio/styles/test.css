@@ -75,8 +75,8 @@ header {
 main {
     display: grid;
     grid-template-columns: 1;
-    grid-auto-rows: 25% 25% 5% 10% 10% 25% ;
-    height: 100%;
+    grid-auto-rows: 25% 1rem 5% 10% 10% 25% ;
+    height: 100vh;
 }
 
 .brand {
@@ -92,6 +92,7 @@ main {
 .title {
     grid-row: 3/4;
     padding-left: 18%;
+    height: 1rem;
     font-size: 1rem;
     color: #F69D17;
 }
