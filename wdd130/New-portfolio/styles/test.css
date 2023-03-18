@@ -33,6 +33,7 @@ header {
     align-content: end;
     padding-left: 10%;
     padding-right: 10%;
+    height: auto;
 }
 
 .resume {
@@ -60,7 +61,7 @@ header {
 }
 .home img {
     width: 60px;
-    
+
 }
 /*-----All Related to the MAIN-----*/
 main {
@@ -115,6 +116,7 @@ footer {
     align-content: start;
     padding-left: 10%;
     padding-right: 10%;
+    height: auto;
 }
 
 .social {
