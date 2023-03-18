@@ -60,10 +60,10 @@ header {
     transition:transform .80s linear;
   }
 
-  .resume:hover {
+  .resume:active {
     transform: scale(1);
   }
-  .resume:hover::after {
+  .resume:active::after {
     transform: rotate(0deg);
   }
 
