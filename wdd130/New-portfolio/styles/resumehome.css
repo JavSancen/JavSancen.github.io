@@ -34,7 +34,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1;
     align-items: center;
-    height: 15vh;
+    height: 15%;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -65,7 +65,7 @@ main {
     display: grid;
     grid-template-columns: 1;
     grid-auto-rows: 10% 10% 15% 50px 10px 5% 55px 30px 30%;
-    height: 70vh;
+    height: 70%;
 }
 
 .brand {
@@ -98,7 +98,7 @@ main {
 .work {
     grid-row: 8/9;
     width: 20%;
-    height: 4vh;
+    height: 20%;
     font-size: 1rem;
     text-align: center;
     color: azure;
@@ -120,9 +120,10 @@ footer {
     grid-template-columns: 2;
     grid-auto-rows: 2;
     align-items: center;
-    height: 15vh;
+    height: 15%;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 10%;
 }
 
 .social {
