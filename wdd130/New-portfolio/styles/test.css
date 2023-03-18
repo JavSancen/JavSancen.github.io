@@ -24,7 +24,7 @@ body {
     max-width: 400px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto auto;
 }
 
 /*-----All Related to the HEADER-----*/
@@ -34,6 +34,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1;
     align-items: center;
+    align-content: start;
     height: auto;
     padding-left: 10%;
     padding-right: 10%;
@@ -52,7 +53,6 @@ header {
     justify-self: end;
     grid-column: 2/3;
     grid-row: 1;
-    padding-top: 15%;
 }
 
 .telegram img {
@@ -132,7 +132,7 @@ footer {
     grid-template-columns: 2;
     grid-auto-rows: 2;
     align-items: center;
-    height: auto;
+    align-content: end;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10%;
