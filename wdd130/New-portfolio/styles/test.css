@@ -32,7 +32,6 @@ header {
     height: auto;
     padding-left: 10%;
     padding-right: 10%;
-    margin-top: 5%;
 }
 
 .resume {
@@ -116,7 +115,6 @@ footer {
     align-content: end;
     padding-left: 10%;
     padding-right: 10%;
-    margin-bottom: 5%;
 }
 
 .social {
