@@ -50,7 +50,7 @@ header {
     grid-row: 1;
 }
 .telegram img {
-    width: 100px;
+    width: 60px;
 }
 .home {
     justify-self: end;
@@ -65,7 +65,7 @@ header {
 main {
     display: grid;
     grid-template-columns: 1;
-    grid-auto-rows: 25% 120px 20px 55px 30px 25%;;
+    grid-auto-rows: 25% 120px 25px 55px 30px 25%;;
     height: auto;
 }
 .brand {
@@ -87,7 +87,6 @@ main {
     grid-row: 4/5;
     width: 80%;
     padding-left: 18%;
-    padding-top: 1%;
     font-size: 1.2rem;
     text-align: justify;
     color: azure;
