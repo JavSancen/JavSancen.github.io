@@ -127,9 +127,28 @@ main {
 }
 .work {
     border: 2px solid #d9d9da;
-    border-radius: 20px;
     margin-left: 18%;
 }
+
+.work {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .work:hover {
+    background-color: #F69D17
+  }
+  
+  .work:active {
+    background-color: #F69D17;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
 /*-----All Related to the FOOTER-----*/
 footer {
     display: grid;
