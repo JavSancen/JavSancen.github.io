@@ -76,16 +76,6 @@ header {
 .telegram img {
     width: 60px;
 }
-.home {
-    justify-self: end;
-    grid-column: 2/3;
-    grid-row: 1;
-    padding-top: 15%;
-}
-.home img {
-    width: 60px;
-
-}
 /*-----All Related to the MAIN-----*/
 main {
     display: grid;
@@ -224,6 +214,47 @@ main {
 
 .card3 {
     background-color: #febf71;
+}
+
+/*-----All Related to the RESUME PAGE-----*/
+
+.resume-header {
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: 100px auto 20px;
+}
+
+.resume-picture img{
+    width: 80px;
+    margin: 0;
+    padding-left: 0;
+    margin-left: -30px;
+    margin-top: 15px;
+    border-radius: 40px;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.titleandname {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    justify-content: left;
+    text-align: left;
+}
+
+.titleandname h1 {
+    font-size: 1.5rem;
+}
+
+.home {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.home img{
+    width: 30px;
+    margin-top: -80px;
+    align-items: start;
 }
 
 
