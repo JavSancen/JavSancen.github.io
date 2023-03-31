@@ -76,11 +76,23 @@ header {
 .telegram img {
     width: 60px;
 }
+
+.home-resume {
+    justify-self: end;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+.home-resume img {
+    width: 40px;
+    margin-top: 20px;
+}
 /*-----All Related to the MAIN-----*/
 main {
     display: grid;
     grid-template-columns: 1;
-    grid-auto-rows: 25% 120px 25px 55px 30px 25%;;
+    grid-auto-rows: 25% 120px 25px 55px 30px 25%;
     height: auto;
 }
 .brand {
