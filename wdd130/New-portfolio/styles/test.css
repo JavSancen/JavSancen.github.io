@@ -265,6 +265,7 @@ main {
 
 .main-resume {
     height: auto;
+    margin-bottom: 5px;
 }
 
 .main-resume {
@@ -288,11 +289,24 @@ main {
 }
 
 .objective {
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
     grid-column: 1/3;
     grid-row: 2/3;
 }
 
+.objective h2 {
+    padding-bottom: 5px;
+}
+
+.objective p {
+    padding-bottom: 10px;
+}
+
 .skills {
+    margin-top: -15px;
     display: grid;
     grid-column: 1/3;
     grid-row: 3/4;
@@ -300,17 +314,19 @@ main {
 }
 
 .skills ul li {
+    height: auto;
     list-style: none;
+    text-align: center;
     background-color: #242424;
 }
 
 .skills h2 {
+    text-align: center;
+    padding-bottom: 5px;
     background-color: #242424; 
 }
 
 .prof-skills {
-    margin-left: 40px;
-    display: inline;
     grid-column: 1/2;
     grid-row: 3/4;
 }
@@ -323,12 +339,36 @@ main {
 .achievements {
     grid-column: 1/3;
     grid-row: 4/5;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.achievements h2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.achievements p {
+    text-align: justify;
 }
 
 .studies {
     height: auto;
     grid-column: 1/3;
     grid-row: 5/6;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #242424;
+}
+
+.studies h2{
+    padding-bottom: 5px;
+    padding-top: 10px;
+    background-color: #242424;
+}
+
+.studies p {
+    text-align: justify;
     background-color: #242424;
 }
 
