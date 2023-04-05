@@ -35,7 +35,6 @@ header {
     padding-right: 10%;
     height: auto;
 }
-
 .resume {
     grid-column: 1/2;
     grid-row: 1;
@@ -44,12 +43,10 @@ header {
     font-size: 2rem;
     font-weight: 600;
 }
-
 .resume {
     transition-property: transform;
     transition: 1s ease;
 }
-
 .resume::after {
     content: '';
     border-top: 4px solid azure;
@@ -59,14 +56,12 @@ header {
     transform: rotateY(90deg);
     transition:transform .80s linear;
   }
-
   .resume:active {
     transform: scale(1);
   }
   .resume:active::after {
     transform: rotate(0deg);
   }
-
 .telegram {
     justify-self: end;
     align-items: center;
@@ -76,14 +71,12 @@ header {
 .telegram img {
     width: 60px;
 }
-
 .home-resume {
     justify-self: end;
     align-items: center;
     grid-column: 2/3;
     grid-row: 1;
 }
-
 .home-resume img {
     width: 40px;
     margin-top: 20px;
@@ -131,7 +124,6 @@ main {
     border: 2px solid #d9d9da;
     margin-left: 18%;
 }
-
 .work {
     cursor: pointer;
     outline: none;
@@ -149,9 +141,7 @@ main {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
-
 /*Card Slide Container for Know my Work*/
-
 .works-container--slider {
     display: flex;
     align-items: end ;
@@ -173,7 +163,6 @@ main {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89,73,30,0.16);
   }
-
   .work-card--title {
     padding-top: 30px;
     font-size: 1.8rem;
@@ -181,16 +170,13 @@ main {
     line-height: 1.8rem;
     color: black;
 }
-
 .work-card--img {
-
     padding: 5px 0;
     font-size: 3rem;
     font-weight: bold;
     line-height: 5.3rem;
     color: black;
 }
-
 .work-card--img img {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -269,17 +255,14 @@ main {
     padding-right: 0;
     background-color: #545454;
 }
-
 .titleandname h1 {
     font-size: 1.3rem;
 }
-
 .titleandname h3 {
     margin-left: 5px;
     font-size: 1rem;
     font-weight: 300;
 }
-
 .resume-picture img{
     position: absolute;
     width: 120px;
@@ -289,8 +272,6 @@ main {
     margin-top: -35px;
     border-radius: 60px;
 }
-
-
 .home img{
     position: absolute;
     width: 20px;
@@ -299,19 +280,15 @@ main {
     margin-left: 15px;
     background-color: #545454;
 }
-
 /*-----All Related to MAIN-RESUME-PAGE-----*/
-
 .main-resume {
     height: auto;
     margin-bottom: 2%;
 }
-
 .main-resume {
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto auto auto;
 }
-
 .youtube {
     grid-row: 1/2;
     grid-column: 2/3;
@@ -320,25 +297,20 @@ main {
     margin-right: 40%;
     /* padding-bottom: 1%; */
 }
-
 .youtube a {
     margin-top: -1%;
     text-align: left;
 }
-
 .span-yt {
     position:absolute;
     margin-top: 3%;
 }
-
 .youtube img {
     padding-left: 5%;
 }
-
 span {
     color: azure;
 }
-
 .objective {
     /* margin-top: -1%; */
     align-self: center;
@@ -348,15 +320,12 @@ span {
     grid-column: 1/3;
     grid-row: 2/3;
 }
-
 .objective h2 {
     padding-bottom: 1%;
 }
-
 .objective p {
     margin-bottom: 3%;
 }
-
 .skills {
     /* margin-top: 1%; */
     padding-top: 2%;
@@ -366,30 +335,25 @@ span {
     grid-row: 3/4;
     background-color: #242424;
 }
-
 .skills ul li {
     height: auto;
     list-style: none;
     text-align: center;
     background-color: #242424;
 }
-
 .skills h2 {
     text-align: center;
     padding-bottom: 1%;
     background-color: #242424; 
 }
-
 .prof-skills {
     grid-column: 1/2;
     grid-row: 3/4;
 }
-
 .soft-skills {
     grid-column: 2/3;
     grid-row: 3/4;
 }
-
 .achievements {
     grid-column: 1/3;
     grid-row: 4/5;
@@ -397,17 +361,14 @@ span {
     margin-left: 2%;
     margin-right: 2%;
 }
-
 .achievements h2 {
     padding-top: 3%;
     padding-bottom: 1%;
 }
-
 .achievements p {
     text-align: justify;
     padding-bottom: 2%;
 }
-
 .studies {
     height: auto;
     grid-column: 1/3;
@@ -417,19 +378,16 @@ span {
     padding-right: 2%;
     background-color: #242424;
 }
-
 .studies h2{
     padding-bottom: 1%;
     padding-top: 2%;
     background-color: #242424;
 }
-
 .studies p {
     text-align: justify;
     background-color: #242424;
     padding-bottom: 2%;
 }
-
 /*-----All Related to the FOOTER-----*/
 footer {
     display: grid;
@@ -441,7 +399,6 @@ footer {
     padding-right: 10%;
     height: auto;
 }
-
 .social {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -460,7 +417,6 @@ footer {
 .am img {
     width: 20px;
 }
-
 /*MAIN section for RESUME page*/
 .titleandname {
     color: azure;
