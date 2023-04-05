@@ -188,9 +188,8 @@ main {
 
 .work-card-description {
     font-size: 1.2rem;
-    color: #3a3939;
+    color: #3a3939; 
 }
-
 .work-card--button {
     width: 100px;
     height: 30px;
@@ -250,7 +249,8 @@ main {
     background-color: #545454;
 }
 
-.titleandname h3{
+.titleandname h1{
+    padding-left: 90px;
     margin-right: 0;
     padding-right: 0;
     background-color: #545454;
