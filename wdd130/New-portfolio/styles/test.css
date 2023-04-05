@@ -196,6 +196,10 @@ main {
     margin-bottom: 20px;
 }
 
+.card2 img {
+    justify-self: center;
+}
+
 .work-card-description {
     font-size: 1.2rem;
     color: #3a3939;
@@ -205,7 +209,6 @@ main {
     width: 100px;
     height: 30px;
     margin-top: 20px;
-    justify-content: center;
     background-color: #faf8f7;
     border: 2px solid orange;
     border-radius: 4px;
@@ -216,16 +219,41 @@ main {
     color: black;
 }
 
+.card1  button{
+    margin-left: 18%;
+}
+
+.card2  button{
+    margin-left: 18%;
+}
+
+.card3  button{
+    margin-left: 18%;
+}
+
 .card1 {
     background-color: #7734fb;
+}
+
+
+.card1 h3{
+    text-align: center;
 }
 
 .card2 {
     background-color:#f6e317;
 }
 
+.card2 h3{
+    text-align: center;
+}
+
 .card3 {
     background-color: #febf71;
+}
+
+.card3 h3{
+    text-align: center;
 }
 
 /*-----All Related to the RESUME PAGE-----*/
@@ -236,8 +264,7 @@ main {
     background-color: #545454;
 }
 
-.titleandname h1, h3{
-    padding-left: 90px;
+.titleandname h3{
     margin-right: 0;
     padding-right: 0;
     background-color: #545454;
